@@ -1,0 +1,44 @@
+# MATLAB / Simulink generated files
+*.asv
+slprj/
+slprj_*/
+*_ert_rtw/
+*_grt_rtw/
+*_rtw/
+codegen/
+cache/
+*.mex*
+*.mldatx
+*.slxc
+*.mdl.autosave
+*.slx.autosave
+*.sldd.autosave
+
+# Simulation and test outputs
+*.log
+*.out
+*.tmp
+*.bak
+*.temp
+results/
+test-results/
+coverage/
+htmlcov/
+
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+build/
+dist/
+*.egg-info/
+
+# Editor and operating system files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/

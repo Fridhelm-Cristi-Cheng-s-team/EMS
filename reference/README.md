@@ -1,5 +1,7 @@
-# Reference
+# Reference assets
 
-This directory contains the original reference models for the EMS project.
+Original reference assets are read-only. Do not modify, unpack, or overwrite them. Any derived work belongs in the appropriate project module.
 
-The original reference files should remain unchanged.
+## Index
+
+The `reference-v1.0` GitHub Release is the reference-model source. The release attachment manifest has not yet been independently retrieved. The current repository tree contains this index only and no model files.
