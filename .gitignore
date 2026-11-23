@@ -8,7 +8,6 @@ slprj_*/
 codegen/
 cache/
 *.mex*
-*.mldatx
 *.slxc
 *.mdl.autosave
 *.slx.autosave

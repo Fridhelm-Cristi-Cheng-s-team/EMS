@@ -1,4 +1,7 @@
-# Treat text sources and documentation consistently across platforms.
+# Detect text files automatically unless a more specific rule applies.
+* text=auto
+
+# Treat source code and documentation consistently across platforms.
 *.m text eol=lf
 *.mlx binary
 *.py text eol=lf
@@ -12,5 +15,10 @@
 *.mdl binary
 *.sldd binary
 *.mat binary
+*.mldatx binary
+*.slxp binary
+*.mdlp binary
+*.mlapp binary
+*.fig binary
 *.p binary
 *.mex* binary
