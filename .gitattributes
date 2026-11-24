@@ -25,3 +25,8 @@
 
 # Preserve generated propulsion CSV bytes so the recorded reproduction compares exactly.
 platform/parameters/aircraft/v0.1/propulsion_requirements.csv text eol=crlf
+
+# Preserve archival source and replay CSV bytes for the propeller baseline.
+platform/parameters/propeller/v0.1/calculations/original/**/*.csv text eol=crlf
+platform/parameters/propeller/v0.1/calculations/original/**/inputs/*.csv text eol=crlf
+platform/parameters/propeller/v0.1/calculations/revised/*.csv text eol=crlf
