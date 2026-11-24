@@ -1,0 +1,53 @@
+{
+  "status": "PROPOSED / NOT FROZEN",
+  "main": "a4548ae03612e0b60b0cdd980a2cd6d9e048adbe",
+  "preferred_aircraft": "P-B",
+  "common": {
+    "altitudes_m": [300, 1500, 500],
+    "climb_tas_mps": 34,
+    "climb_rate_mps": 2.5,
+    "cruise_tas_mps": 37,
+    "descent_tas_mps": 36,
+    "descent_rate_mps": -1.4,
+    "wind_x_mps": 0,
+    "initial_total_fuel_kg": 40,
+    "unusable_fuel_kg": 4,
+    "payload_kg": 48,
+    "ballast_kg": 0,
+    "quadrature_nodes_per_phase": 41,
+    "maximum_mass_kg": 500,
+    "electrical_conversion_screen_min_effective_W": 2000
+  },
+  "scenarios": [
+    {"id":"M01","distance_km":120,"tier":1},
+    {"id":"M02","distance_km":300,"tier":1},
+    {"id":"M03-120","distance_km":120,"climb_rate_mps":5,"tier":2},
+    {"id":"M03-300","distance_km":300,"climb_rate_mps":5,"tier":2},
+    {"id":"M04-435","distances_km":[120,300],"initial_total_fuel_kg":4,"tier":2},
+    {"id":"M04-471","distances_km":[120,300],"tier":2,"note":"Fixed nominal mass control"},
+    {"id":"M04-500","distances_km":[120,300],"ballast_kg":29,"tier":2,"note":"Ideal point ballast at nominal CG"},
+    {"id":"M04-P36","distances_km":[120,300],"payload_kg":36,"tier":2},
+    {"id":"M04-P60","distances_km":[120,300],"payload_kg":60,"tier":2},
+    {"id":"M04-FUEL","distances_km":[120,300],"final_total_fuel_kg":4,"tier":2,"note":"Synthetic inventory 40 to 4 kg linear in ground distance; no fuel demand inference"},
+    {"id":"M05-CALM","distances_km":[120,300],"tier":2},
+    {"id":"M05-HEAD","distances_km":[120,300],"wind_x_mps":-6,"tier":2},
+    {"id":"M05-TAIL","distances_km":[120,300],"wind_x_mps":6,"tier":2},
+    {"id":"M06-V32","distances_km":[120,300],"cruise_tas_mps":32,"tier":2},
+    {"id":"M06-V34","distances_km":[120,300],"cruise_tas_mps":34,"tier":2},
+    {"id":"M06-V37","distances_km":[120,300],"cruise_tas_mps":37,"tier":2},
+    {"id":"M06-V41","distances_km":[120,300],"cruise_tas_mps":41,"tier":2}
+  ],
+  "gust_candidate": {
+    "id": "M05-GUST", "basis":"M01",
+    "phase": "cruise", "onset_from_cruise_start_s": 600,
+    "duration_s":8, "max_vertical_wind_mps":1.5,
+    "expression": "Wz=0.75*(1-cos(2*pi*(t-t0)/8)) for t0<=t<=t0+8, zero elsewhere",
+    "status":"DEFINED / DYNAMIC NOT RUN"
+  },
+  "thrust_limits": [
+    {"id":"M07-CR","reference":"M01","phase":"cruise","cap_N":340},
+    {"id":"M07-CL","reference":"M01","phase":"climb","cap_N":650},
+    {"id":"M07-HI","reference":"M03-120","phase":"climb","cap_N":900},
+    {"id":"M07-DECAY","reference":"M01","phase":"cruise","cap_initial_N":450,"cap_final_N":300,"cap_ramp_s":900}
+  ]
+}

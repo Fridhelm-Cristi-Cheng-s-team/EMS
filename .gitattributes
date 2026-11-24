@@ -22,3 +22,6 @@
 *.fig binary
 *.p binary
 *.mex* binary
+
+# Preserve generated propulsion CSV bytes so the recorded reproduction compares exactly.
+platform/parameters/aircraft/v0.1/propulsion_requirements.csv text eol=crlf

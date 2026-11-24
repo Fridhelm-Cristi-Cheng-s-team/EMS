@@ -14,6 +14,8 @@
 8. [技术决策登记](decisions/decision_register.md)
 9. [验证计划](verification/verification_plan.md)
 10. [A/B 联合接口待决事项](interfaces/ab_interface_pending.md)
+11. [飞机物理参数归档索引](parameters/README.md)
+12. [飞机参数计算验证报告](verification/aircraft_parameter_verification.md)
 
 [历史报告与修订关系](history/README.md)用于追溯。开发使用当前有效接口定义，未获正式批准的条目继续按其状态处理。
 

@@ -1,0 +1,1480 @@
+{
+  "name": "EMS V3 — Aircraft Physical Parameter Baseline V0.1",
+  "status": "PROPOSED / NOT FROZEN",
+  "git_main": "a4548ae03612e0b60b0cdd980a2cd6d9e048adbe",
+  "selected": "P-B",
+  "candidates": {
+    "P-A": {
+      "role": "comparison only",
+      "geometry": {
+        "S": {
+          "value": 15.5,
+          "unit": "m^2",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "trapezoidal planform; 03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "AR": {
+          "value": 7.0,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "b^2/S; 03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "taper": {
+          "value": 0.8,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "tip chord/root chord",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "span": {
+          "value": 10.41633332799983,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "sqrt(S*AR)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "root_chord": {
+          "value": 1.6533862425396553,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2*S/(b*(1+taper))",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tip_chord": {
+          "value": 1.3227089940317243,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "root_chord*taper",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "geometric_chord": {
+          "value": 1.4880476182856899,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "S/b",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "MAC": {
+          "value": 1.4941712710358366,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2/3*root_chord*(1+taper+taper^2)/(1+taper)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "fuselage_reference_length": {
+          "value": 8.217941990697101,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "5.5*MAC",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_area": {
+          "value": 3.41,
+          "unit": "m^2",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "0.22*S",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_arm_from_aero_reference": {
+          "value": 3.9595538682449667,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2.65*MAC",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_volume": {
+          "value": 0.583,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "St*lt/(S*MAC)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "aero_reference_O_relative": {
+          "value": [
+            -0.4183679558900343,
+            0
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "prop_application_O_relative": {
+          "value": [
+            1.6884135362704953,
+            0.022412569065537548
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "nominal_cg_O_relative": {
+          "value": [
+            -0.4140535759991453,
+            0.1339043935253135
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "at 471 kg; x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "nominal_Iy": {
+          "value": 1572.1216497690905,
+          "unit": "kg*m^2",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "parallel axis; 03A ±20% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        }
+      },
+      "aerodynamics": {
+        "CL0": {
+          "value": 0.3,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "zero angle, q and elevator",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLalpha": {
+          "value": 5.2581333474640655,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "finite wing and effective tail slope",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLmax": {
+          "value": 1.55,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "stall estimate; no post-stall dynamics",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLq": {
+          "value": 3.88278,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "derivative in nondimensional qhat",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLde": {
+          "value": 0.32967,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "elevator trailing edge down positive",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CD0": {
+          "value": 0.032,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "e": {
+          "value": 0.78,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "k": {
+          "value": 0.05829851395307522,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "1/(pi*e*AR)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cm0": {
+          "value": -0.035,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "fixed aerodynamic reference",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmalpha": {
+          "value": -0.750276799576078,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "fixed aerodynamic reference; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmq": {
+          "value": -10.289367,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "derivative in qhat; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmde": {
+          "value": -0.8736255,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "same tail model; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        }
+      },
+      "cruise_tas": {
+        "value": 33,
+        "unit": "m/s",
+        "source_class": "SYNTHETIC",
+        "source": "03A report and original calculation; 03AR consolidation",
+        "type": "independent",
+        "status": "PROPOSED / NOT FROZEN",
+        "derivation_or_applicability": "comparison condition",
+        "uncertainty": "Awaiting relevant geometry, test or model evidence"
+      }
+    },
+    "P-B": {
+      "role": "preferred",
+      "geometry": {
+        "S": {
+          "value": 13.5,
+          "unit": "m^2",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "trapezoidal planform; 03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "AR": {
+          "value": 8.5,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "b^2/S; 03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "taper": {
+          "value": 0.65,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "tip chord/root chord",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "span": {
+          "value": 10.712142642814275,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "sqrt(S*AR)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "root_chord": {
+          "value": 1.5275782734851018,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2*S/(b*(1+taper))",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tip_chord": {
+          "value": 0.9929258777653162,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "root_chord*taper",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "geometric_chord": {
+          "value": 1.260252075625209,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "S/b",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "MAC": {
+          "value": 1.2791539279991408,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2/3*root_chord*(1+taper+taper^2)/(1+taper)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "fuselage_reference_length": {
+          "value": 7.035346603995275,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "5.5*MAC",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_area": {
+          "value": 2.97,
+          "unit": "m^2",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "0.22*S",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_arm_from_aero_reference": {
+          "value": 3.3897579091977232,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2.65*MAC",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_volume": {
+          "value": 0.583,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "St*lt/(S*MAC)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "aero_reference_O_relative": {
+          "value": [
+            -0.35816309983975947,
+            0
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "prop_application_O_relative": {
+          "value": [
+            1.445443938639029,
+            0.01918730891998711
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "nominal_cg_O_relative": {
+          "value": [
+            -0.35446957682048386,
+            0.11463500488501856
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "at 471 kg; x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "nominal_Iy": {
+          "value": 1152.208307999417,
+          "unit": "kg*m^2",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "parallel axis; 03A ±20% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        }
+      },
+      "aerodynamics": {
+        "CL0": {
+          "value": 0.28,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "zero angle, q and elevator",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLalpha": {
+          "value": 5.464850350787277,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "finite wing and effective tail slope",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLmax": {
+          "value": 1.5,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "stall estimate; no post-stall dynamics",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLq": {
+          "value": 3.88278,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "derivative in nondimensional qhat",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLde": {
+          "value": 0.32967,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "elevator trailing edge down positive",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CD0": {
+          "value": 0.028,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "e": {
+          "value": 0.82,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "k": {
+          "value": 0.04566856329753095,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "1/(pi*e*AR)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cm0": {
+          "value": -0.04,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "fixed aerodynamic reference",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmalpha": {
+          "value": -0.7440752894763816,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "fixed aerodynamic reference; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmq": {
+          "value": -10.289367,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "derivative in qhat; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmde": {
+          "value": -0.8736255,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "same tail model; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        }
+      },
+      "cruise_tas": {
+        "value": 37,
+        "unit": "m/s",
+        "source_class": "SYNTHETIC",
+        "source": "03A report and original calculation; 03AR consolidation",
+        "type": "independent",
+        "status": "PROPOSED / NOT FROZEN",
+        "derivation_or_applicability": "comparison condition",
+        "uncertainty": "Awaiting relevant geometry, test or model evidence"
+      }
+    },
+    "P-C": {
+      "role": "comparison only",
+      "geometry": {
+        "S": {
+          "value": 12.0,
+          "unit": "m^2",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "trapezoidal planform; 03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "AR": {
+          "value": 10.5,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "b^2/S; 03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "taper": {
+          "value": 0.55,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "tip chord/root chord",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "span": {
+          "value": 11.224972160321824,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "sqrt(S*AR)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "root_chord": {
+          "value": 1.3794128614834806,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2*S/(b*(1+taper))",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tip_chord": {
+          "value": 0.7586770738159144,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "root_chord*taper",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "geometric_chord": {
+          "value": 1.0690449676496976,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "S/b",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "MAC": {
+          "value": 1.0990805702787732,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2/3*root_chord*(1+taper+taper^2)/(1+taper)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "fuselage_reference_length": {
+          "value": 6.044943136533252,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "5.5*MAC",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_area": {
+          "value": 2.64,
+          "unit": "m^2",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "0.22*S",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_arm_from_aero_reference": {
+          "value": 2.9125635112387487,
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "2.65*MAC",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "tail_volume": {
+          "value": 0.583,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "St*lt/(S*MAC)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "aero_reference_O_relative": {
+          "value": [
+            -0.3077425596780565,
+            0
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "prop_application_O_relative": {
+          "value": [
+            1.2419610444150135,
+            0.016486208554181595
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "nominal_cg_O_relative": {
+          "value": [
+            -0.3045689937001815,
+            0.09849722053390024
+          ],
+          "unit": "m",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "at 471 kg; x forward and z down",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "nominal_Iy": {
+          "value": 850.6373455020637,
+          "unit": "kg*m^2",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "parallel axis; 03A ±20% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        }
+      },
+      "aerodynamics": {
+        "CL0": {
+          "value": 0.25,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "zero angle, q and elevator",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLalpha": {
+          "value": 5.6640788695756115,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "finite wing and effective tail slope",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLmax": {
+          "value": 1.45,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "stall estimate; no post-stall dynamics",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLq": {
+          "value": 3.88278,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "derivative in nondimensional qhat",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CLde": {
+          "value": 0.32967,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "elevator trailing edge down positive",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "CD0": {
+          "value": 0.025,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "e": {
+          "value": 0.85,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "03A ±10% P-B sensitivity",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "k": {
+          "value": 0.03566497324188131,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "1/(pi*e*AR)",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cm0": {
+          "value": -0.035,
+          "unit": "1",
+          "source_class": "SYNTHETIC",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "independent",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "fixed aerodynamic reference",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmalpha": {
+          "value": -0.7380984339127317,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "fixed aerodynamic reference; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmq": {
+          "value": -10.289367,
+          "unit": "1",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "derivative in qhat; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        },
+        "Cmde": {
+          "value": -0.8736255,
+          "unit": "1/rad",
+          "source_class": "CALCULATED",
+          "source": "03A report and original calculation; 03AR consolidation",
+          "type": "derived",
+          "status": "PROPOSED / NOT FROZEN",
+          "derivation_or_applicability": "same tail model; 03A ±20%",
+          "uncertainty": "Awaiting relevant geometry, test or model evidence"
+        }
+      },
+      "cruise_tas": {
+        "value": 43,
+        "unit": "m/s",
+        "source_class": "SYNTHETIC",
+        "source": "03A report and original calculation; 03AR consolidation",
+        "type": "independent",
+        "status": "PROPOSED / NOT FROZEN",
+        "derivation_or_applicability": "comparison condition",
+        "uncertainty": "Awaiting relevant geometry, test or model evidence"
+      }
+    }
+  },
+  "mass": {
+    "MTOM_STUDY_TARGET": {
+      "value": 500,
+      "unit": "kg",
+      "source_class": "USER-CONFIRMED",
+      "source": "A方 03A/03AR scope",
+      "type": "independent",
+      "status": "CONFIRMED PROJECT TARGET",
+      "derivation_or_applicability": "design target",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "airframe_other": {
+      "value": 218,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "aggregate allocation",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "payload_nominal": {
+      "value": 48,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "03AR 36/60 kg same-station comparisons",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "battery_nominal": {
+      "value": 65,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "55–80 kg subject to joint budget",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "drive_and_propeller": {
+      "value": 22,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "18–28 kg subject to joint budget",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "genset_nominal": {
+      "value": 78,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "65–90 kg subject to joint budget",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "initial_total_fuel": {
+      "value": 40,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "36 usable and 4 unusable; B owns inventory",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "usable_fuel": {
+      "value": 36,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "not an energy feasibility result",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "unusable_fuel": {
+      "value": 4,
+      "unit": "kg",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "included in empty baseline",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "empty": {
+      "value": 387,
+      "unit": "kg",
+      "source_class": "CALCULATED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "derived",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "218+65+22+78+4",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "nominal_flight": {
+      "value": 471,
+      "unit": "kg",
+      "source_class": "CALCULATED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "derived",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "387+48+36",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "light_flight": {
+      "value": 435,
+      "unit": "kg",
+      "source_class": "CALCULATED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "derived",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "471-36",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "nominal_margin": {
+      "value": 29,
+      "unit": "kg",
+      "source_class": "CALCULATED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "derived",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "500-471",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "joint_powertrain_budget": {
+      "value": 194,
+      "unit": "kg",
+      "source_class": "CALCULATED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "derived",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "500-218-48-40; individual upper limits sum to 198",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "mass_stations": {
+      "value": [
+        [
+          218,
+          0.47,
+          0.04,
+          1.7
+        ],
+        [
+          48,
+          0.12,
+          0.12,
+          0.24
+        ],
+        [
+          65,
+          0.24,
+          0.2,
+          0.25
+        ],
+        [
+          22,
+          -1.13,
+          0.025,
+          0.22
+        ],
+        [
+          78,
+          0.22,
+          0.11,
+          0.33
+        ],
+        [
+          40,
+          0.36,
+          0.14,
+          0.26
+        ]
+      ],
+      "unit": [
+        "kg",
+        "aft/MAC",
+        "down/MAC",
+        "k_y/MAC"
+      ],
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "row order: airframe_etc, payload, battery, drive_prop, genset, fuel_total",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "payload_station": {
+      "value": [
+        -0.1534984713598969,
+        0.1534984713598969
+      ],
+      "unit": "m",
+      "source_class": "CALCULATED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "derived",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "same O-relative station across payload scenarios",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    }
+  },
+  "payload_cases": [
+    {
+      "payload_kg": 36,
+      "total_kg": 459.0,
+      "cg_b_m": [
+        -0.3597237233684729,
+        0.11361896654580604
+      ],
+      "Iy_kg_m2": 1150.5614004533243,
+      "margin_kg": 41.0
+    },
+    {
+      "payload_kg": 48,
+      "total_kg": 471.0,
+      "cg_b_m": [
+        -0.35446957682048386,
+        0.11463500488501856
+      ],
+      "Iy_kg_m2": 1152.208307999417,
+      "margin_kg": 29.0
+    },
+    {
+      "payload_kg": 60,
+      "total_kg": 483.0,
+      "cg_b_m": [
+        -0.3494765058773636,
+        0.11560055684712733
+      ],
+      "Iy_kg_m2": 1153.8295786723654,
+      "margin_kg": 17.0
+    }
+  ],
+  "aero_generation": {
+    "tail_lift_slope": {
+      "value": 3.7,
+      "unit": "1/rad",
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "finite-tail surrogate",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "tail_dynamic_pressure_ratio": {
+      "value": 0.9,
+      "unit": "1",
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "tail/freestream dynamic pressure",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "downwash_slope": {
+      "value": 0.4,
+      "unit": "1",
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "angle derivative",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "elevator_effectiveness": {
+      "value": 0.45,
+      "unit": "1",
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "tail flap substitution",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "wing_lift_slope_factor": {
+      "value": 0.94,
+      "unit": "1",
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "finite wing induced slope",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "wing_ac": {
+      "value": 0.25,
+      "unit": "MAC aft",
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "wing reference",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "fuselage_pitch_slope": {
+      "value": 0.27,
+      "unit": "1/rad",
+      "source_class": "SYNTHETIC",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "destabilizing contribution",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    }
+  },
+  "limits": {
+    "TAS_study_grid": {
+      "value": [
+        25,
+        49
+      ],
+      "unit": "m/s",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "03A study domain",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "AoA": {
+      "value": [
+        -5,
+        11
+      ],
+      "unit": "deg; solver rad",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "linear model valid only within reviewed range",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "qhat_max_abs": {
+      "value": 0.04,
+      "unit": "1",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "dynamic guard; trim qhat=0",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "elevator": {
+      "value": [
+        -20,
+        20
+      ],
+      "unit": "deg; solver rad",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "actual surface travel",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "elevator_rate": {
+      "value": 45,
+      "unit": "deg/s; internal rad/s",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "dynamics not run",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "CL_fraction": {
+      "value": 0.85,
+      "unit": "1",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "model screening",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "TAS_over_Vs": {
+      "value": 1.3,
+      "unit": "1",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "research screening, not certification",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "prop_axis_pitch": {
+      "value": 1,
+      "unit": "deg; solver rad",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "positive up from x_b",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "actual_propulsion_capability": {
+      "value": null,
+      "unit": "N",
+      "source_class": "TBD",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "TBD",
+      "derivation_or_applicability": "05A–05E and A/B matching",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "actual_mission_energy_capacity": {
+      "value": null,
+      "unit": "J",
+      "source_class": "TBD",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "TBD",
+      "derivation_or_applicability": "actual usable energy plus reserves and A/B load split",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    }
+  },
+  "atmosphere": {
+    "g": {
+      "value": 9.80665,
+      "unit": "m/s^2",
+      "source_class": "REFERENCE-DERIVED",
+      "source": "US Standard Atmosphere 1976",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "uniform gravity",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "sea_level_T": {
+      "value": 288.15,
+      "unit": "K",
+      "source_class": "REFERENCE-DERIVED",
+      "source": "US Standard Atmosphere 1976",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "standard",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "sea_level_p": {
+      "value": 101325,
+      "unit": "Pa",
+      "source_class": "REFERENCE-DERIVED",
+      "source": "US Standard Atmosphere 1976",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "standard",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "lapse_rate": {
+      "value": 0.0065,
+      "unit": "K/m",
+      "source_class": "REFERENCE-DERIVED",
+      "source": "US Standard Atmosphere 1976",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "lower layer, 0–2500 m study",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "gas_constant": {
+      "value": 287.05287,
+      "unit": "J/(kg*K)",
+      "source_class": "REFERENCE-DERIVED",
+      "source": "US Standard Atmosphere 1976",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "dry air",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    }
+  },
+  "efficiency_estimation": {
+    "propeller": {
+      "value": [
+        0.68,
+        0.82
+      ],
+      "unit": "1",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "positive aligned work, not propeller map",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "mechanical_allowance": {
+      "value": [
+        0.97,
+        0.99
+      ],
+      "unit": "1",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "03A shared-shaft total loss allowance once; no gearbox implied",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "electric_drive": {
+      "value": [
+        0.88,
+        0.95
+      ],
+      "unit": "1",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "network inlet to motor output",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    },
+    "guard": {
+      "value": 2000,
+      "unit": "W",
+      "source_class": "ASSUMED",
+      "source": "03A report and original calculation; 03AR consolidation",
+      "type": "independent",
+      "status": "PROPOSED / NOT FROZEN",
+      "derivation_or_applicability": "03AR reporting guard only",
+      "uncertainty": "Awaiting relevant geometry, test or model evidence"
+    }
+  },
+  "dynamics": {
+    "states": [
+      "X",
+      "Z",
+      "u",
+      "w",
+      "theta",
+      "q"
+    ],
+    "SI": [
+      "m",
+      "m",
+      "m/s",
+      "m/s",
+      "rad",
+      "rad/s"
+    ],
+    "owner": "S2",
+    "aero_loads": "original 03A source",
+    "prop_loads": "S4 actual force and moment about O, shifted once",
+    "inventory": "B or explicitly labeled substitute; no new integrated fuel state",
+    "mass_approximation": "fixed CG/Iy for initial dynamic baseline; recompute parameters between frozen trim points"
+  },
+  "task_configuration": "mission_profiles.json",
+  "verified_sources": {
+    "03A_source": "source_03a/study.py and source_03a/candidates.json (byte-identical copies)",
+    "ISA": "https://ntrs.nasa.gov/citations/19770009539",
+    "baseline": "https://github.com/Fridhelm-Cristi-Cheng-s-team/EMS/tree/a4548ae03612e0b60b0cdd980a2cd6d9e048adbe/docs"
+  }
+}

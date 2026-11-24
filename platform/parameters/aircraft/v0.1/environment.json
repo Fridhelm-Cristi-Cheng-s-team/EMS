@@ -1,0 +1,7 @@
+{
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "evidence": "Versions recorded from the A-V3-03AR reproducing environment; both original and revised Python calculations reproduced byte-for-byte there.",
+  "matlab_simulink": "NOT RUN"
+}
