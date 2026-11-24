@@ -13,3 +13,11 @@
 - [可复现数据、脚本和逐文件校验清单](../../platform/parameters/aircraft/v0.1/README.md)
 
 逐参数 `PROPOSED / NOT FROZEN` 或 `TBD` 状态继续有效。Python 数值复现已有证据；MATLAB/Simulink `NOT RUN`。本归档不冻结 A/B 联合接口。
+
+## 螺旋桨物理参数
+
+- [螺旋桨参数基线](propeller_physical_baseline.md)
+- [螺旋桨决策登记](propeller_decision_register.md)
+- [螺旋桨归档与复现数据](../../platform/parameters/propeller/v0.1/README.md)
+- [计算验证报告](../verification/propeller_parameter_verification.md)
+- [历史整理稿 A‑V3‑05A](../history/A-V3-05A.md) 与 [A‑V3‑05AR](../history/A-V3-05AR.md)

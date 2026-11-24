@@ -1,0 +1,3 @@
+# A-V3-05AR historical report
+
+**Historical summary, not a verbatim transcript.** Independent review retained PROP-B and corrected the blade inertia equation, tip Mach computation and candidate-specific motor load organization. It reproduced the 05A evidence, directly solved representative BEMT points, checked numerical convergence, ideal momentum power, public small-propeller comparisons, mission energy, stress boundaries, low-speed limits and interface ownership. The final report-level conclusion was PASS for a synthetic candidate study with stated limits. Its ZIP, source register, validation, implementation and outputs are retained under `platform/parameters/propeller/v0.1/`.

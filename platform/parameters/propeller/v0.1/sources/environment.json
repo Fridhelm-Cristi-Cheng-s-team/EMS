@@ -1,0 +1,16 @@
+{
+  "platform": "Linux",
+  "arch": "x86_64",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "matplotlib": "3.10.8",
+  "posix_tools": [
+    "bash",
+    "sha256sum",
+    "unzip",
+    "zip",
+    "cmp"
+  ],
+  "verification": "MATLAB/Simulink NOT RUN"
+}

@@ -1,0 +1,513 @@
+{
+  "status": "PROPOSED / NOT FROZEN",
+  "candidate": "PROP-B",
+  "prop_J_kg_m2": 1.3281442669605,
+  "drive_mass_remaining_kg": 15.517229,
+  "acceleration_torque_status": "TBD",
+  "mechanical_losses": "Add separately at motor/shaft boundary; no 03AR efficiency factor",
+  "load_uncertainty": "SYNTHETIC_BEMT; see sensitivity_results.csv; not a confidence interval",
+  "baseline_duty": {
+    "M01": {
+      "phases": {
+        "climb": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 480.0,
+          "weight_sum_s": 480.0,
+          "complete": true,
+          "P_shaft_kWh": 3.820954734001588,
+          "useful_kWh": 3.1437698386174118,
+          "ideal_kWh": 3.3524518199424085,
+          "profile_kWh": 0.28237568907387883,
+          "rpm_range": [
+            1255.1689117283568,
+            1283.5515221642115
+          ],
+          "Q_prop_Nm_range": [
+            211.53683408338287,
+            219.99775985696448
+          ],
+          "P_shaft_W_range": [
+            28433.343016428847,
+            28916.721388802416
+          ]
+        },
+        "cruise": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "complete": true,
+          "P_shaft_kWh": 9.548723266081534,
+          "useful_kWh": 8.07383072687,
+          "ideal_kWh": 8.339530030011447,
+          "profile_kWh": 0.8349625901446652,
+          "rpm_range": [
+            1191.3175982667517,
+            1191.3175982667517
+          ],
+          "Q_prop_Nm_range": [
+            130.65781872725807,
+            130.65781872725807
+          ],
+          "P_shaft_W_range": [
+            16300.149168794089,
+            16300.149168794089
+          ]
+        },
+        "descent": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "complete": true,
+          "P_shaft_kWh": 1.6587579717251597,
+          "useful_kWh": 1.373969452991038,
+          "ideal_kWh": 1.397799499350205,
+          "profile_kWh": 0.1967726369553764,
+          "rpm_range": [
+            1060.920266453864,
+            1061.6682503925801
+          ],
+          "Q_prop_Nm_range": [
+            71.94503526494873,
+            78.70277616257664
+          ],
+          "P_shaft_W_range": [
+            7998.679172876638,
+            8743.824166454848
+          ]
+        }
+      },
+      "complete": true,
+      "P_shaft_kWh": 15.028435971808284,
+      "useful_kWh": 12.59157001847845,
+      "ideal_kWh": 13.08978134930406,
+      "profile_kWh": 1.3141109161739204,
+      "eta_energy": 0.8378496632716053
+    },
+    "M02": {
+      "phases": {
+        "climb": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 480.0,
+          "weight_sum_s": 480.0,
+          "complete": true,
+          "P_shaft_kWh": 3.820954734001588,
+          "useful_kWh": 3.1437698386174118,
+          "ideal_kWh": 3.3524518199424085,
+          "profile_kWh": 0.28237568907387883,
+          "rpm_range": [
+            1255.1689117283568,
+            1283.5515221642115
+          ],
+          "Q_prop_Nm_range": [
+            211.53683408338287,
+            219.99775985696448
+          ],
+          "P_shaft_W_range": [
+            28433.343016428847,
+            28916.721388802416
+          ]
+        },
+        "cruise": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "complete": true,
+          "P_shaft_kWh": 31.575951872560033,
+          "useful_kWh": 26.698741114890584,
+          "ideal_kWh": 27.57736207549257,
+          "profile_kWh": 2.7610747350326323,
+          "rpm_range": [
+            1191.3175982667517,
+            1191.3175982667517
+          ],
+          "Q_prop_Nm_range": [
+            130.65781872725807,
+            130.65781872725807
+          ],
+          "P_shaft_W_range": [
+            16300.149168794089,
+            16300.149168794089
+          ]
+        },
+        "descent": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "complete": true,
+          "P_shaft_kWh": 1.6587579717251597,
+          "useful_kWh": 1.373969452991038,
+          "ideal_kWh": 1.397799499350205,
+          "profile_kWh": 0.1967726369553764,
+          "rpm_range": [
+            1060.920266453864,
+            1061.6682503925801
+          ],
+          "Q_prop_Nm_range": [
+            71.94503526494873,
+            78.70277616257664
+          ],
+          "P_shaft_W_range": [
+            7998.679172876638,
+            8743.824166454848
+          ]
+        }
+      },
+      "complete": true,
+      "P_shaft_kWh": 37.05566457828678,
+      "useful_kWh": 31.216480406499034,
+      "ideal_kWh": 32.32761339478518,
+      "profile_kWh": 3.2402230610618874,
+      "eta_energy": 0.8424212805723288
+    },
+    "M03-120": {
+      "phases": {
+        "climb": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 240.0,
+          "weight_sum_s": 240.0,
+          "complete": true,
+          "P_shaft_kWh": 2.9398334155535117,
+          "useful_kWh": 2.335365087569893,
+          "ideal_kWh": 2.5594360258202298,
+          "profile_kWh": 0.214575135753846,
+          "rpm_range": [
+            1387.571658967773,
+            1427.403894627833
+          ],
+          "Q_prop_Nm_range": [
+            294.35809392387563,
+            304.4381645648756
+          ],
+          "P_shaft_W_range": [
+            43999.8785166606,
+            44236.74197104885
+          ]
+        },
+        "cruise": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 2330.6455043626866,
+          "weight_sum_s": 2330.6455043626866,
+          "complete": true,
+          "P_shaft_kWh": 10.552741494636424,
+          "useful_kWh": 8.922768642249615,
+          "ideal_kWh": 9.21640539171081,
+          "profile_kWh": 0.9227562812284222,
+          "rpm_range": [
+            1191.3175982667517,
+            1191.3175982667517
+          ],
+          "Q_prop_Nm_range": [
+            130.65781872725807,
+            130.65781872725807
+          ],
+          "P_shaft_W_range": [
+            16300.149168794089,
+            16300.149168794089
+          ]
+        },
+        "descent": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "complete": true,
+          "P_shaft_kWh": 1.6587579717251597,
+          "useful_kWh": 1.373969452991038,
+          "ideal_kWh": 1.397799499350205,
+          "profile_kWh": 0.1967726369553764,
+          "rpm_range": [
+            1060.920266453864,
+            1061.6682503925801
+          ],
+          "Q_prop_Nm_range": [
+            71.94503526494873,
+            78.70277616257664
+          ],
+          "P_shaft_W_range": [
+            7998.679172876638,
+            8743.824166454848
+          ]
+        }
+      },
+      "complete": true,
+      "P_shaft_kWh": 15.151332881915096,
+      "useful_kWh": 12.632103182810546,
+      "ideal_kWh": 13.173640916881244,
+      "profile_kWh": 1.3341040539376448,
+      "eta_energy": 0.8337288396513585
+    },
+    "M03-300": {
+      "phases": {
+        "climb": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 240.0,
+          "weight_sum_s": 240.0,
+          "complete": true,
+          "P_shaft_kWh": 2.9398334155535117,
+          "useful_kWh": 2.335365087569893,
+          "ideal_kWh": 2.5594360258202298,
+          "profile_kWh": 0.214575135753846,
+          "rpm_range": [
+            1387.571658967773,
+            1427.403894627833
+          ],
+          "Q_prop_Nm_range": [
+            294.35809392387563,
+            304.4381645648756
+          ],
+          "P_shaft_W_range": [
+            43999.8785166606,
+            44236.74197104885
+          ]
+        },
+        "cruise": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 7195.510369227551,
+          "weight_sum_s": 7195.510369227551,
+          "complete": true,
+          "P_shaft_kWh": 32.57997010111493,
+          "useful_kWh": 27.547679030270206,
+          "ideal_kWh": 28.45423743719193,
+          "profile_kWh": 2.8488684261163897,
+          "rpm_range": [
+            1191.3175982667517,
+            1191.3175982667517
+          ],
+          "Q_prop_Nm_range": [
+            130.65781872725807,
+            130.65781872725807
+          ],
+          "P_shaft_W_range": [
+            16300.149168794089,
+            16300.149168794089
+          ]
+        },
+        "descent": {
+          "rows": 41,
+          "matched": 41,
+          "phase_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "complete": true,
+          "P_shaft_kWh": 1.6587579717251597,
+          "useful_kWh": 1.373969452991038,
+          "ideal_kWh": 1.397799499350205,
+          "profile_kWh": 0.1967726369553764,
+          "rpm_range": [
+            1060.920266453864,
+            1061.6682503925801
+          ],
+          "Q_prop_Nm_range": [
+            71.94503526494873,
+            78.70277616257664
+          ],
+          "P_shaft_W_range": [
+            7998.679172876638,
+            8743.824166454848
+          ]
+        }
+      },
+      "complete": true,
+      "P_shaft_kWh": 37.178561488393605,
+      "useful_kWh": 31.257013570831138,
+      "ideal_kWh": 32.41147296236237,
+      "profile_kWh": 3.2602161988256118,
+      "eta_energy": 0.8407268145807348
+    }
+  },
+  "stress_evidence": [
+    {
+      "source_point_id": "X01-MAX-THRUST",
+      "candidate_id": "PROP-B",
+      "mission": "03A scan replay",
+      "phase": "isolated",
+      "tier": 3,
+      "duty": "TIER3_STRESS_NO_DURATION",
+      "trim_status": "FEASIBLE",
+      "repeated_scenario_note": "no operational duration or frequency",
+      "weight_applicable": false,
+      "thrust_request_N": "1286.4560918369484",
+      "V_ax_mps": "25.787405982645986",
+      "phase_duration_s": "",
+      "quadrature_weight_s": "",
+      "time_s": "",
+      "mass_kg": "500.0",
+      "z_m": "0",
+      "rho_kg_m3": "1.225000018124288",
+      "assumed_thrust_cap_N": "",
+      "thrust_cap_deficit_N": "",
+      "static_cap_status": "",
+      "source": "03A/P-B point; 03AR solver",
+      "status": "MATCHED",
+      "allowed_min_thrust_N": 94.07523105742459,
+      "allowed_max_thrust_N": 1427.53680943494,
+      "allowed_min_rpm": 750.0,
+      "allowed_max_rpm": 1372.2788106064384,
+      "rpm_map_lower_bound": 750.0,
+      "rpm_map_upper_bound": 1372.2788106064384,
+      "rpm": 1323.5431210106126,
+      "omega_rad_s": 138.60111152254157,
+      "J": 0.5313713465555916,
+      "CT": 0.09212859750650275,
+      "CQ": 0.010778709827968195,
+      "CP": 0.06772463122144197,
+      "thrust_N": 1286.4560918369489,
+      "Q_prop_Nm": 331.12347360523137,
+      "P_shaft_W": 45894.08149289003,
+      "eta": 0.7228462677521268,
+      "useful_W": 33174.36551904751,
+      "ideal_W": 39031.30219950889,
+      "profile_W": 3590.3887426719407,
+      "M_tip_geometric": 0.4543914973016045,
+      "M_outer_solved": 0.4301512332335102,
+      "M_local_max": 0.4496558026311292,
+      "Re75": 785670.7614375086,
+      "J_clearance": 0.01887134655559164,
+      "RPM_upper_margin": 626.4568789893874,
+      "thrust_residual_N": 4.547473508864641e-13,
+      "root_count": 1,
+      "alternatives": "[]"
+    },
+    {
+      "source_point_id": "X02-MAX-EFFECTIVE-POWER",
+      "candidate_id": "PROP-B",
+      "mission": "03A scan replay",
+      "phase": "isolated",
+      "tier": 3,
+      "duty": "TIER3_STRESS_NO_DURATION",
+      "trim_status": "FEASIBLE",
+      "repeated_scenario_note": "no operational duration or frequency",
+      "weight_applicable": false,
+      "thrust_request_N": "1110.7240587631989",
+      "V_ax_mps": "48.99543662851689",
+      "phase_duration_s": "",
+      "quadrature_weight_s": "",
+      "time_s": "",
+      "mass_kg": "500.0",
+      "z_m": "0",
+      "rho_kg_m3": "1.225000018124288",
+      "assumed_thrust_cap_N": "",
+      "thrust_cap_deficit_N": "",
+      "static_cap_status": "",
+      "source": "03A/P-B point; 03AR solver",
+      "status": "MATCHED",
+      "allowed_min_thrust_N": 2.9801329644321037,
+      "allowed_max_thrust_N": 2021.9467125727392,
+      "allowed_min_rpm": 1278.6977806485486,
+      "allowed_max_rpm": 1950.0,
+      "rpm_map_lower_bound": 1278.6977806485486,
+      "rpm_map_upper_bound": 1950.0,
+      "rpm": 1694.3319267212498,
+      "omega_rad_s": 177.4300244576706,
+      "J": 0.7886525418685393,
+      "CT": 0.0485383347441703,
+      "CQ": 0.007262647444120392,
+      "CP": 0.04563255971212262,
+      "thrust_N": 1110.724058763199,
+      "Q_prop_Nm": 365.627581494863,
+      "P_shaft_W": 64873.3107270325,
+      "eta": 0.8388720973696905,
+      "useful_W": 54420.41023290139,
+      "ideal_W": 57001.65812330888,
+      "profile_W": 5071.681687329536,
+      "M_tip_geometric": 0.5913383421437094,
+      "M_outer_solved": 0.5647524171479568,
+      "M_local_max": 0.5875442615153871,
+      "Re75": 1036300.2189063474,
+      "J_clearance": 0.25634745813146065,
+      "RPM_upper_margin": 255.66807327875017,
+      "thrust_residual_N": 2.2737367544323206e-13,
+      "root_count": 1,
+      "alternatives": "[]"
+    },
+    {
+      "source_point_id": "X03-LOW-LOAD",
+      "candidate_id": "PROP-B",
+      "mission": "03A scan replay",
+      "phase": "isolated",
+      "tier": 3,
+      "duty": "TIER3_STRESS_NO_DURATION",
+      "trim_status": "FEASIBLE",
+      "repeated_scenario_note": "no operational duration or frequency",
+      "weight_applicable": false,
+      "thrust_request_N": "66.01932416618956",
+      "V_ax_mps": "24.802318216555133",
+      "phase_duration_s": "",
+      "quadrature_weight_s": "",
+      "time_s": "",
+      "mass_kg": "435.0",
+      "z_m": "0",
+      "rho_kg_m3": "1.225000018124288",
+      "assumed_thrust_cap_N": "",
+      "thrust_cap_deficit_N": "",
+      "static_cap_status": "",
+      "source": "03A/P-B point; 03AR solver",
+      "status": "THRUST_BELOW_SCREENED_RANGE",
+      "allowed_min_thrust_N": 124.39177570559654,
+      "allowed_max_thrust_N": 1320.5551727984534,
+      "allowed_min_rpm": 750.0,
+      "allowed_max_rpm": 1319.8572886858608,
+      "rpm_map_lower_bound": 750.0,
+      "rpm_map_upper_bound": 1319.8572886858608
+    },
+    {
+      "source_point_id": "X04-SCREEN-REJECT",
+      "candidate_id": "PROP-B",
+      "mission": "03A scan replay",
+      "phase": "isolated",
+      "tier": 3,
+      "duty": "TIER3_STRESS_NO_DURATION",
+      "trim_status": "OUTSIDE_SCREEN",
+      "repeated_scenario_note": "no operational duration or frequency",
+      "weight_applicable": false,
+      "thrust_request_N": "1351.6746797114556",
+      "V_ax_mps": "24.568266825980757",
+      "phase_duration_s": "",
+      "quadrature_weight_s": "",
+      "time_s": "",
+      "mass_kg": "500.0",
+      "z_m": "2500",
+      "rho_kg_m3": "0.9568587862321349",
+      "assumed_thrust_cap_N": "",
+      "thrust_cap_deficit_N": "",
+      "static_cap_status": "",
+      "source": "03A/P-B point; 03AR solver",
+      "status": "EXCLUDED_OUTSIDE_SCREEN"
+    },
+    {
+      "source_point_id": "X05-STEEP-DESCENT",
+      "candidate_id": "PROP-B",
+      "mission": "03A scan replay",
+      "phase": "isolated",
+      "tier": 3,
+      "duty": "TIER3_STRESS_NO_DURATION",
+      "trim_status": "NO_TRIM_FOUND",
+      "repeated_scenario_note": "no operational duration or frequency",
+      "weight_applicable": false,
+      "thrust_request_N": "9.515875809325717e-24",
+      "V_ax_mps": "35.943147049976076",
+      "phase_duration_s": "",
+      "quadrature_weight_s": "",
+      "time_s": "",
+      "mass_kg": "471.0",
+      "z_m": "1000",
+      "rho_kg_m3": "1.1116425003060324",
+      "assumed_thrust_cap_N": "",
+      "thrust_cap_deficit_N": "",
+      "static_cap_status": "",
+      "source": "03A/P-B point; 03AR solver",
+      "status": "EXCLUDED_NO_TRIM_FOUND"
+    }
+  ],
+  "mission_row_count": 3692,
+  "duty_interpretation": "Cruise dwell and 480 s/240 s climb are aircraft task loads. Thermal capability TBD; no rating."
+}

@@ -1,0 +1,135 @@
+{
+  "baseline": "544da4e0ad59d8cbe0bf4f2a6f749fc26df0bbcf",
+  "status": "PROPOSED / NOT FROZEN",
+  "recommended": "PROP-B",
+  "reference_conditions": {
+    "rev_per_s": 20.0,
+    "density_kg_m3": 1.1,
+    "temperature_K": 278.0
+  },
+  "candidates": [
+    {
+      "id": "PROP-A",
+      "D": 2.5,
+      "blades": 3,
+      "pitch_ratio": 0.95,
+      "root_chord_ratio": 0.08,
+      "outer_chord_ratio": 0.035,
+      "rpm_min": 650,
+      "rpm_max": 1750,
+      "hub_mass": 1.8,
+      "hub": 0.22,
+      "outer_station": 0.97,
+      "areal_mass": 10.0,
+      "install": 2.0,
+      "pitch_m": 2.375,
+      "disk_area_m2": 4.908738521234052,
+      "blades_kg": 4.141406249999999,
+      "prop_kg": 5.941406249999999,
+      "blade_J_kg_m2": 2.3140827026367186,
+      "hub_J_kg_m2": 0.06806250000000001,
+      "J_prop_kg_m2": 2.3821452026367185,
+      "gyration_radius_m": 0.6331979362563415,
+      "drive_remaining_kg": 14.05859375,
+      "modeled_span": [
+        0.22,
+        1.0
+      ],
+      "valid_J_cells": [
+        [
+          0.42500000000000004,
+          0.9450000000000001
+        ]
+      ],
+      "installation_clearance": "TBD",
+      "mechanical_rpm_limit": "TBD"
+    },
+    {
+      "id": "PROP-B",
+      "D": 2.2,
+      "blades": 3,
+      "pitch_ratio": 1.05,
+      "root_chord_ratio": 0.075,
+      "outer_chord_ratio": 0.032,
+      "rpm_min": 750,
+      "rpm_max": 1950,
+      "hub_mass": 1.5,
+      "hub": 0.22,
+      "outer_station": 0.97,
+      "areal_mass": 10.0,
+      "install": 2.0,
+      "pitch_m": 2.3100000000000005,
+      "disk_area_m2": 3.8013271108436504,
+      "blades_kg": 2.9827709999999996,
+      "prop_kg": 4.482771,
+      "blade_J_kg_m2": 1.2842212669605,
+      "hub_J_kg_m2": 0.04392300000000001,
+      "J_prop_kg_m2": 1.3281442669605,
+      "gyration_radius_m": 0.5443138049820543,
+      "drive_remaining_kg": 15.517229,
+      "modeled_span": [
+        0.22,
+        1.0
+      ],
+      "valid_J_cells": [
+        [
+          0.5125,
+          1.045
+        ]
+      ],
+      "installation_clearance": "TBD",
+      "mechanical_rpm_limit": "TBD"
+    },
+    {
+      "id": "PROP-C",
+      "D": 1.8,
+      "blades": 4,
+      "pitch_ratio": 1.15,
+      "root_chord_ratio": 0.07,
+      "outer_chord_ratio": 0.03,
+      "rpm_min": 850,
+      "rpm_max": 2350,
+      "hub_mass": 1.25,
+      "hub": 0.22,
+      "outer_station": 0.97,
+      "areal_mass": 10.0,
+      "install": 2.0,
+      "pitch_m": 2.07,
+      "disk_area_m2": 2.5446900494077327,
+      "blades_kg": 2.4883200000000008,
+      "prop_kg": 3.7383200000000008,
+      "blade_J_kg_m2": 0.71781381576,
+      "hub_J_kg_m2": 0.024502500000000003,
+      "J_prop_kg_m2": 0.74231631576,
+      "gyration_radius_m": 0.44561137252554806,
+      "drive_remaining_kg": 16.26168,
+      "modeled_span": [
+        0.22,
+        1.0
+      ],
+      "valid_J_cells": [
+        [
+          0.56,
+          1.145
+        ]
+      ],
+      "installation_clearance": "TBD",
+      "mechanical_rpm_limit": "TBD"
+    }
+  ],
+  "installation": {
+    "value": [
+      1.445443938639029,
+      0.01918730891998711
+    ],
+    "unit": "m",
+    "source_class": "CALCULATED",
+    "source": "03A report and original calculation; 03AR consolidation",
+    "type": "derived",
+    "status": "PROPOSED / NOT FROZEN",
+    "derivation_or_applicability": "x forward and z down",
+    "uncertainty": "Awaiting relevant geometry, test or model evidence"
+  },
+  "theta_shaft_deg": 1.0,
+  "mach_screen": 0.7
+}

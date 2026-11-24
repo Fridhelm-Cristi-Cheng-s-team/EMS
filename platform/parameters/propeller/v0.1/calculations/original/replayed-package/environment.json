@@ -1,0 +1,13 @@
+{
+  "project": "EMS V3 A-V3-05A",
+  "worktree_policy": "temporary scratch only; no repository writes",
+  "repository": "Fridhelm-Cristi-Cheng-s-team/EMS",
+  "baseline_branch": "main",
+  "baseline_commit": "544da4e0ad59d8cbe0bf4f2a6f749fc26df0bbcf",
+  "python": "3.12.14",
+  "numpy": "2.3.5",
+  "scipy": "1.17.0",
+  "operating_system": "Linux execution environment",
+  "matlab_simulink": "NOT RUN",
+  "reproduction": "python study.py --out reproduced; python verify_interpolation.py --map reproduced/propeller_map.csv --out reproduced/verification_interpolation.json"
+}

@@ -1,0 +1,421 @@
+{
+  "name": "EMS V3 — Propeller Candidate Parameter Set A-V3-05A",
+  "status": "PROPOSED / NOT FROZEN",
+  "baseline_commit": "544da4e0ad59d8cbe0bf4f2a6f749fc26df0bbcf",
+  "selected_recommendation_for_review": "PROP-B",
+  "model": "synthetic BEMT CT(J), CQ(J) map; fixed pitch; forward positive thrust only",
+  "candidate_family_independent": true,
+  "ct_definition": "T/(rho*n^2*D^4)",
+  "cq_definition": "Q/(rho*n^2*D^5)",
+  "cp_definition": "2*pi*CQ = Pshaft/(rho*n^3*D^5)",
+  "advance_ratio": "J=Vax/(n*D)",
+  "eta": "J*CT/CP; valid only for forward positive thrust/power and positive Vax",
+  "direction": "T positive forward along propeller shaft; Q positive resisting positive rotation; motor torque output positive in rotation direction",
+  "candidates": [
+    {
+      "id": "PROP-A",
+      "role": "large diameter / low rpm",
+      "D_m": {
+        "value": 2.5,
+        "source_class": "SYNTHETIC",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "R_m": {
+        "value": 1.25,
+        "source_class": "CALCULATED",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "pitch_m": {
+        "value": 2.375,
+        "source_class": "SYNTHETIC",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "P_over_D": 0.95,
+      "blade_count": 3,
+      "hub_diameter_m": 0.55,
+      "disk_area_m2": 4.908738521234052,
+      "hub_radius_ratio": 0.22,
+      "chord_root_m": 0.2,
+      "chord_tip_m": 0.08750000000000001,
+      "pitch_model": "beta(r)=atan(P/(2*pi*r))",
+      "blade_mass_kg": {
+        "value": 4.04296875,
+        "source_class": "SYNTHETIC/ASSUMED",
+        "basis": "10 kg/m2 equivalent projected areal mass × planform"
+      },
+      "hub_mass_kg": {
+        "value": 1.8,
+        "source_class": "ASSUMED"
+      },
+      "propeller_mass_kg": {
+        "value": 5.84296875,
+        "source_class": "CALCULATED"
+      },
+      "installation_mass_kg": {
+        "value": 2.0,
+        "source_class": "ASSUMED"
+      },
+      "J_prop_kg_m2": {
+        "value": 3.531809700679779,
+        "source_class": "CALCULATED",
+        "basis": "integrated projected areal mass distribution plus solid-disk hub estimate"
+      },
+      "rpm_candidate_range": [
+        650.0,
+        1750.0
+      ],
+      "rpm_limit_status": "PROPOSED aerodynamic screen only; structural/manufacturer limit TBD",
+      "valid_J_range": [
+        0.46577777777777785,
+        0.9462222222222223
+      ],
+      "performance_map_file": "propeller_map.csv",
+      "map_status": "each row flagged; no extrapolation",
+      "mass_budget": {
+        "combined_drive_and_propeller_limit_kg": 22,
+        "propeller_plus_installation_kg": 7.84296875,
+        "remaining_for_motor_and_other_drive_kg": 14.15703125
+      },
+      "installation": {
+        "aircraft_axis_installation_angle_deg": 1.0,
+        "application_point_O_relative_m": [
+          1.445443938639029,
+          0.01918730891998711
+        ],
+        "clearance_status": "TBD; conditional on airframe envelope"
+      },
+      "source_class_by_parameter": {
+        "D_m": "SYNTHETIC",
+        "P_over_D": "SYNTHETIC",
+        "blade_count": "SYNTHETIC",
+        "hub_radius_ratio": "SYNTHETIC",
+        "chord_root_m": "SYNTHETIC",
+        "chord_tip_m": "SYNTHETIC",
+        "pitch_model": "SYNTHETIC",
+        "rpm_candidate_range": "ASSUMED",
+        "blade_areal_mass_kg_m2": "ASSUMED",
+        "hub_mass_kg": "ASSUMED",
+        "installation_mass_kg": "ASSUMED",
+        "R_m": "CALCULATED",
+        "pitch_m": "CALCULATED",
+        "hub_diameter_m": "CALCULATED",
+        "disk_area_m2": "CALCULATED",
+        "blade_mass_kg": "CALCULATED",
+        "propeller_mass_kg": "CALCULATED",
+        "J_prop_kg_m2": "CALCULATED",
+        "installation.application_point_O_relative_m": "REFERENCE-DERIVED",
+        "installation.aircraft_axis_installation_angle_deg": "REFERENCE-DERIVED",
+        "mechanical_rpm_limit": "TBD",
+        "clearance": "TBD",
+        "full_scale_performance_map": "TBD",
+        "windmill_map": "TBD",
+        "J_motor": "TBD",
+        "J_other": "TBD"
+      },
+      "derivation_basis": {
+        "pitch_m": "D_m × P_over_D",
+        "blade_mass_kg": "assumed 10 kg/m² × computed planform",
+        "propeller_mass_kg": "blade mass + assumed hub mass",
+        "J_prop_kg_m2": "integrated assumed blade areal mass and solid-disk assumed hub"
+      },
+      "status_by_parameter": {
+        "D_m": "PROPOSED / NOT FROZEN",
+        "P_over_D": "PROPOSED / NOT FROZEN",
+        "blade_count": "PROPOSED / NOT FROZEN",
+        "hub_radius_ratio": "PROPOSED / NOT FROZEN",
+        "chord_root_m": "PROPOSED / NOT FROZEN",
+        "chord_tip_m": "PROPOSED / NOT FROZEN",
+        "pitch_model": "PROPOSED / NOT FROZEN",
+        "rpm_candidate_range": "PROPOSED / NOT FROZEN",
+        "blade_areal_mass_kg_m2": "PROPOSED / NOT FROZEN",
+        "hub_mass_kg": "PROPOSED / NOT FROZEN",
+        "installation_mass_kg": "PROPOSED / NOT FROZEN",
+        "R_m": "PROPOSED / NOT FROZEN",
+        "pitch_m": "PROPOSED / NOT FROZEN",
+        "hub_diameter_m": "PROPOSED / NOT FROZEN",
+        "disk_area_m2": "PROPOSED / NOT FROZEN",
+        "blade_mass_kg": "PROPOSED / NOT FROZEN",
+        "propeller_mass_kg": "PROPOSED / NOT FROZEN",
+        "J_prop_kg_m2": "PROPOSED / NOT FROZEN",
+        "installation.application_point_O_relative_m": "PROPOSED / NOT FROZEN",
+        "installation.aircraft_axis_installation_angle_deg": "PROPOSED / NOT FROZEN",
+        "mechanical_rpm_limit": "TBD",
+        "clearance": "TBD",
+        "full_scale_performance_map": "TBD",
+        "windmill_map": "TBD",
+        "J_motor": "TBD",
+        "J_other": "TBD"
+      }
+    },
+    {
+      "id": "PROP-B",
+      "role": "balanced",
+      "D_m": {
+        "value": 2.2,
+        "source_class": "SYNTHETIC",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "R_m": {
+        "value": 1.1,
+        "source_class": "CALCULATED",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "pitch_m": {
+        "value": 2.3100000000000005,
+        "source_class": "SYNTHETIC",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "P_over_D": 1.05,
+      "blade_count": 3,
+      "hub_diameter_m": 0.48400000000000004,
+      "disk_area_m2": 3.8013271108436504,
+      "hub_radius_ratio": 0.22,
+      "chord_root_m": 0.165,
+      "chord_tip_m": 0.0704,
+      "pitch_model": "beta(r)=atan(P/(2*pi*r))",
+      "blade_mass_kg": {
+        "value": 2.9130749999999996,
+        "source_class": "SYNTHETIC/ASSUMED",
+        "basis": "10 kg/m2 equivalent projected areal mass × planform"
+      },
+      "hub_mass_kg": {
+        "value": 1.5,
+        "source_class": "ASSUMED"
+      },
+      "propeller_mass_kg": {
+        "value": 4.413074999999999,
+        "source_class": "CALCULATED"
+      },
+      "installation_mass_kg": {
+        "value": 2.0,
+        "source_class": "ASSUMED"
+      },
+      "J_prop_kg_m2": {
+        "value": 2.2300932363358306,
+        "source_class": "CALCULATED",
+        "basis": "integrated projected areal mass distribution plus solid-disk hub estimate"
+      },
+      "rpm_candidate_range": [
+        750.0,
+        1950.0
+      ],
+      "rpm_limit_status": "PROPOSED aerodynamic screen only; structural/manufacturer limit TBD",
+      "valid_J_range": [
+        0.5373333333333334,
+        1.0382222222222224
+      ],
+      "performance_map_file": "propeller_map.csv",
+      "map_status": "each row flagged; no extrapolation",
+      "mass_budget": {
+        "combined_drive_and_propeller_limit_kg": 22,
+        "propeller_plus_installation_kg": 6.413074999999999,
+        "remaining_for_motor_and_other_drive_kg": 15.586925
+      },
+      "installation": {
+        "aircraft_axis_installation_angle_deg": 1.0,
+        "application_point_O_relative_m": [
+          1.445443938639029,
+          0.01918730891998711
+        ],
+        "clearance_status": "TBD; conditional on airframe envelope"
+      },
+      "source_class_by_parameter": {
+        "D_m": "SYNTHETIC",
+        "P_over_D": "SYNTHETIC",
+        "blade_count": "SYNTHETIC",
+        "hub_radius_ratio": "SYNTHETIC",
+        "chord_root_m": "SYNTHETIC",
+        "chord_tip_m": "SYNTHETIC",
+        "pitch_model": "SYNTHETIC",
+        "rpm_candidate_range": "ASSUMED",
+        "blade_areal_mass_kg_m2": "ASSUMED",
+        "hub_mass_kg": "ASSUMED",
+        "installation_mass_kg": "ASSUMED",
+        "R_m": "CALCULATED",
+        "pitch_m": "CALCULATED",
+        "hub_diameter_m": "CALCULATED",
+        "disk_area_m2": "CALCULATED",
+        "blade_mass_kg": "CALCULATED",
+        "propeller_mass_kg": "CALCULATED",
+        "J_prop_kg_m2": "CALCULATED",
+        "installation.application_point_O_relative_m": "REFERENCE-DERIVED",
+        "installation.aircraft_axis_installation_angle_deg": "REFERENCE-DERIVED",
+        "mechanical_rpm_limit": "TBD",
+        "clearance": "TBD",
+        "full_scale_performance_map": "TBD",
+        "windmill_map": "TBD",
+        "J_motor": "TBD",
+        "J_other": "TBD"
+      },
+      "derivation_basis": {
+        "pitch_m": "D_m × P_over_D",
+        "blade_mass_kg": "assumed 10 kg/m² × computed planform",
+        "propeller_mass_kg": "blade mass + assumed hub mass",
+        "J_prop_kg_m2": "integrated assumed blade areal mass and solid-disk assumed hub"
+      },
+      "status_by_parameter": {
+        "D_m": "PROPOSED / NOT FROZEN",
+        "P_over_D": "PROPOSED / NOT FROZEN",
+        "blade_count": "PROPOSED / NOT FROZEN",
+        "hub_radius_ratio": "PROPOSED / NOT FROZEN",
+        "chord_root_m": "PROPOSED / NOT FROZEN",
+        "chord_tip_m": "PROPOSED / NOT FROZEN",
+        "pitch_model": "PROPOSED / NOT FROZEN",
+        "rpm_candidate_range": "PROPOSED / NOT FROZEN",
+        "blade_areal_mass_kg_m2": "PROPOSED / NOT FROZEN",
+        "hub_mass_kg": "PROPOSED / NOT FROZEN",
+        "installation_mass_kg": "PROPOSED / NOT FROZEN",
+        "R_m": "PROPOSED / NOT FROZEN",
+        "pitch_m": "PROPOSED / NOT FROZEN",
+        "hub_diameter_m": "PROPOSED / NOT FROZEN",
+        "disk_area_m2": "PROPOSED / NOT FROZEN",
+        "blade_mass_kg": "PROPOSED / NOT FROZEN",
+        "propeller_mass_kg": "PROPOSED / NOT FROZEN",
+        "J_prop_kg_m2": "PROPOSED / NOT FROZEN",
+        "installation.application_point_O_relative_m": "PROPOSED / NOT FROZEN",
+        "installation.aircraft_axis_installation_angle_deg": "PROPOSED / NOT FROZEN",
+        "mechanical_rpm_limit": "TBD",
+        "clearance": "TBD",
+        "full_scale_performance_map": "TBD",
+        "windmill_map": "TBD",
+        "J_motor": "TBD",
+        "J_other": "TBD"
+      }
+    },
+    {
+      "id": "PROP-C",
+      "role": "small diameter / high rpm",
+      "D_m": {
+        "value": 1.8,
+        "source_class": "SYNTHETIC",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "R_m": {
+        "value": 0.9,
+        "source_class": "CALCULATED",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "pitch_m": {
+        "value": 2.07,
+        "source_class": "SYNTHETIC",
+        "status": "PROPOSED / NOT FROZEN"
+      },
+      "P_over_D": 1.15,
+      "blade_count": 4,
+      "hub_diameter_m": 0.396,
+      "disk_area_m2": 2.5446900494077327,
+      "hub_radius_ratio": 0.22,
+      "chord_root_m": 0.12600000000000003,
+      "chord_tip_m": 0.054,
+      "pitch_model": "beta(r)=atan(P/(2*pi*r))",
+      "blade_mass_kg": {
+        "value": 2.4299999999999997,
+        "source_class": "SYNTHETIC/ASSUMED",
+        "basis": "10 kg/m2 equivalent projected areal mass × planform"
+      },
+      "hub_mass_kg": {
+        "value": 1.25,
+        "source_class": "ASSUMED"
+      },
+      "propeller_mass_kg": {
+        "value": 3.6799999999999997,
+        "source_class": "CALCULATED"
+      },
+      "installation_mass_kg": {
+        "value": 2.0,
+        "source_class": "ASSUMED"
+      },
+      "J_prop_kg_m2": {
+        "value": 1.5177859274320313,
+        "source_class": "CALCULATED",
+        "basis": "integrated projected areal mass distribution plus solid-disk hub estimate"
+      },
+      "rpm_candidate_range": [
+        850.0,
+        2350.0
+      ],
+      "rpm_limit_status": "PROPOSED aerodynamic screen only; structural/manufacturer limit TBD",
+      "valid_J_range": [
+        0.5782222222222223,
+        1.12
+      ],
+      "performance_map_file": "propeller_map.csv",
+      "map_status": "each row flagged; no extrapolation",
+      "mass_budget": {
+        "combined_drive_and_propeller_limit_kg": 22,
+        "propeller_plus_installation_kg": 5.68,
+        "remaining_for_motor_and_other_drive_kg": 16.32
+      },
+      "installation": {
+        "aircraft_axis_installation_angle_deg": 1.0,
+        "application_point_O_relative_m": [
+          1.445443938639029,
+          0.01918730891998711
+        ],
+        "clearance_status": "TBD; conditional on airframe envelope"
+      },
+      "source_class_by_parameter": {
+        "D_m": "SYNTHETIC",
+        "P_over_D": "SYNTHETIC",
+        "blade_count": "SYNTHETIC",
+        "hub_radius_ratio": "SYNTHETIC",
+        "chord_root_m": "SYNTHETIC",
+        "chord_tip_m": "SYNTHETIC",
+        "pitch_model": "SYNTHETIC",
+        "rpm_candidate_range": "ASSUMED",
+        "blade_areal_mass_kg_m2": "ASSUMED",
+        "hub_mass_kg": "ASSUMED",
+        "installation_mass_kg": "ASSUMED",
+        "R_m": "CALCULATED",
+        "pitch_m": "CALCULATED",
+        "hub_diameter_m": "CALCULATED",
+        "disk_area_m2": "CALCULATED",
+        "blade_mass_kg": "CALCULATED",
+        "propeller_mass_kg": "CALCULATED",
+        "J_prop_kg_m2": "CALCULATED",
+        "installation.application_point_O_relative_m": "REFERENCE-DERIVED",
+        "installation.aircraft_axis_installation_angle_deg": "REFERENCE-DERIVED",
+        "mechanical_rpm_limit": "TBD",
+        "clearance": "TBD",
+        "full_scale_performance_map": "TBD",
+        "windmill_map": "TBD",
+        "J_motor": "TBD",
+        "J_other": "TBD"
+      },
+      "derivation_basis": {
+        "pitch_m": "D_m × P_over_D",
+        "blade_mass_kg": "assumed 10 kg/m² × computed planform",
+        "propeller_mass_kg": "blade mass + assumed hub mass",
+        "J_prop_kg_m2": "integrated assumed blade areal mass and solid-disk assumed hub"
+      },
+      "status_by_parameter": {
+        "D_m": "PROPOSED / NOT FROZEN",
+        "P_over_D": "PROPOSED / NOT FROZEN",
+        "blade_count": "PROPOSED / NOT FROZEN",
+        "hub_radius_ratio": "PROPOSED / NOT FROZEN",
+        "chord_root_m": "PROPOSED / NOT FROZEN",
+        "chord_tip_m": "PROPOSED / NOT FROZEN",
+        "pitch_model": "PROPOSED / NOT FROZEN",
+        "rpm_candidate_range": "PROPOSED / NOT FROZEN",
+        "blade_areal_mass_kg_m2": "PROPOSED / NOT FROZEN",
+        "hub_mass_kg": "PROPOSED / NOT FROZEN",
+        "installation_mass_kg": "PROPOSED / NOT FROZEN",
+        "R_m": "PROPOSED / NOT FROZEN",
+        "pitch_m": "PROPOSED / NOT FROZEN",
+        "hub_diameter_m": "PROPOSED / NOT FROZEN",
+        "disk_area_m2": "PROPOSED / NOT FROZEN",
+        "blade_mass_kg": "PROPOSED / NOT FROZEN",
+        "propeller_mass_kg": "PROPOSED / NOT FROZEN",
+        "J_prop_kg_m2": "PROPOSED / NOT FROZEN",
+        "installation.application_point_O_relative_m": "PROPOSED / NOT FROZEN",
+        "installation.aircraft_axis_installation_angle_deg": "PROPOSED / NOT FROZEN",
+        "mechanical_rpm_limit": "TBD",
+        "clearance": "TBD",
+        "full_scale_performance_map": "TBD",
+        "windmill_map": "TBD",
+        "J_motor": "TBD",
+        "J_other": "TBD"
+      }
+    }
+  ]
+}
