@@ -1,0 +1,3968 @@
+{
+  "PROP-A": {
+    "M01": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.217574783605393,
+      "partial_shaft_energy_kWh_not_total": 15.217574783605393,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.702394113415526,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M02": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.59929506295504,
+      "partial_shaft_energy_kWh_not_total": 37.59929506295504,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.08411439276518,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M03-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.328617198059899,
+      "partial_shaft_energy_kWh_not_total": 15.328617198059899,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 240.0,
+          "weight_sum_s": 240.0,
+          "shaft_energy_kWh_partial": 2.8625267221359025,
+          "max_shaft_power_W": 43148.657121275835,
+          "max_torque_Nm": 339.40601515904785,
+          "rpm_min": 1214.0012425077891,
+          "rpm_max": 1243.4799780643457
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2330.6455043626866,
+          "weight_sum_s": 2330.6455043626866,
+          "shaft_energy_kWh_partial": 10.722570348399273,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M03-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.710337477409546,
+      "partial_shaft_energy_kWh_not_total": 37.710337477409546,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 240.0,
+          "weight_sum_s": 240.0,
+          "shaft_energy_kWh_partial": 2.8625267221359025,
+          "max_shaft_power_W": 43148.657121275835,
+          "max_torque_Nm": 339.40601515904785,
+          "rpm_min": 1214.0012425077891,
+          "rpm_max": 1243.4799780643457
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 7195.510369227551,
+          "weight_sum_s": 7195.510369227551,
+          "shaft_energy_kWh_partial": 33.104290627748924,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M04-435-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.615859799316727,
+      "partial_shaft_energy_kWh_not_total": 14.615859799316727,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.5375186799298133,
+          "max_shaft_power_W": 26882.302864519337,
+          "max_torque_Nm": 232.47144122523906,
+          "rpm_min": 1104.2521249144727,
+          "rpm_max": 1123.0094828414267
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.341647394369192,
+          "max_shaft_power_W": 15946.660277754687,
+          "max_torque_Nm": 140.3286320016275,
+          "rpm_min": 1085.1626383626685,
+          "rpm_max": 1085.1626383626685
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.736693725017723,
+          "max_shaft_power_W": 9186.640584493549,
+          "max_torque_Nm": 88.33023750559813,
+          "rpm_min": 992.9753939790904,
+          "rpm_max": 993.1588326170431
+        }
+      },
+      "failures": []
+    },
+    "M04-435-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.165400715201436,
+      "partial_shaft_energy_kWh_not_total": 36.165400715201436,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.5375186799298133,
+          "max_shaft_power_W": 26882.302864519337,
+          "max_torque_Nm": 232.47144122523906,
+          "rpm_min": 1104.2521249144727,
+          "rpm_max": 1123.0094828414267
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 30.891188310253902,
+          "max_shaft_power_W": 15946.660277754687,
+          "max_torque_Nm": 140.3286320016275,
+          "rpm_min": 1085.1626383626685,
+          "rpm_max": 1085.1626383626685
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.736693725017723,
+          "max_shaft_power_W": 9186.640584493549,
+          "max_torque_Nm": 88.33023750559813,
+          "rpm_min": 992.9753939790904,
+          "rpm_max": 993.1588326170431
+        }
+      },
+      "failures": []
+    },
+    "M04-471-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.217574783605393,
+      "partial_shaft_energy_kWh_not_total": 15.217574783605393,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.702394113415526,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M04-471-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.59929506295504,
+      "partial_shaft_energy_kWh_not_total": 37.59929506295504,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.08411439276518,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M04-500-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.73470598815243,
+      "partial_shaft_energy_kWh_not_total": 15.73470598815243,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.966653834633136,
+          "max_shaft_power_W": 30013.67675840301,
+          "max_torque_Nm": 254.3670901975976,
+          "rpm_min": 1126.7554335157358,
+          "rpm_max": 1148.7583381566042
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 10.012415827691472,
+          "max_shaft_power_W": 17091.695610353476,
+          "max_torque_Nm": 149.10120847604293,
+          "rpm_min": 1094.6502191416707,
+          "rpm_max": 1094.6502191416707
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7556363258278218,
+          "max_shaft_power_W": 9230.236426627003,
+          "max_torque_Nm": 88.75291936050445,
+          "rpm_min": 993.1196159784848,
+          "rpm_max": 993.9754791981866
+        }
+      },
+      "failures": []
+    },
+    "M04-500-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 38.83159194808955,
+      "partial_shaft_energy_kWh_not_total": 38.83159194808955,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.966653834633136,
+          "max_shaft_power_W": 30013.67675840301,
+          "max_torque_Nm": 254.3670901975976,
+          "rpm_min": 1126.7554335157358,
+          "rpm_max": 1148.7583381566042
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 33.109301787628596,
+          "max_shaft_power_W": 17091.695610353476,
+          "max_torque_Nm": 149.10120847604293,
+          "rpm_min": 1094.6502191416707,
+          "rpm_max": 1094.6502191416707
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7556363258278218,
+          "max_shaft_power_W": 9230.236426627003,
+          "max_torque_Nm": 88.75291936050445,
+          "rpm_min": 993.1196159784848,
+          "rpm_max": 993.9754791981866
+        }
+      },
+      "failures": []
+    },
+    "M04-FUEL-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.025537478107186,
+      "partial_shaft_energy_kWh_not_total": 15.025537478107186,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7553685556873684,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1135.2751699500589
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.532968092733151,
+          "max_shaft_power_W": 16476.104902045725,
+          "max_torque_Nm": 144.40245852896106,
+          "rpm_min": 1086.227753340894,
+          "rpm_max": 1089.5604817705807
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7372008296866652,
+          "max_shaft_power_W": 9186.640584493549,
+          "max_torque_Nm": 88.33023750559813,
+          "rpm_min": 992.9769133101126,
+          "rpm_max": 993.1588326170431
+        }
+      },
+      "failures": []
+    },
+    "M04-FUEL-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.999054202572815,
+      "partial_shaft_energy_kWh_not_total": 36.999054202572815,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7651372108393075,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1136.4363656234937
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.497037560399786,
+          "max_shaft_power_W": 16527.993089681604,
+          "max_torque_Nm": 144.80042294099982,
+          "rpm_min": 1085.5867480615277,
+          "rpm_max": 1089.9878934815017
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7368794313337221,
+          "max_shaft_power_W": 9186.640584493549,
+          "max_torque_Nm": 88.33023750559813,
+          "rpm_min": 992.9761042797328,
+          "rpm_max": 993.1588326170431
+        }
+      },
+      "failures": []
+    },
+    "M04-P36-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.011881673413841,
+      "partial_shaft_energy_kWh_not_total": 15.011881673413841,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.692720383611885,
+          "max_shaft_power_W": 28016.735442462483,
+          "max_torque_Nm": 240.48207380894493,
+          "rpm_min": 1112.5158389581254,
+          "rpm_max": 1132.4678960736712
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.578908683039977,
+          "max_shaft_power_W": 16351.677188345411,
+          "max_torque_Nm": 143.44619855783623,
+          "rpm_min": 1088.540628555816,
+          "rpm_max": 1088.540628555816
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7402526067619786,
+          "max_shaft_power_W": 9186.26581740523,
+          "max_torque_Nm": 88.33999472755082,
+          "rpm_min": 992.9911974507022,
+          "rpm_max": 993.1897300078424
+        }
+      },
+      "failures": []
+    },
+    "M04-P36-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.10874273874548,
+      "partial_shaft_energy_kWh_not_total": 37.10874273874548,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.692720383611885,
+          "max_shaft_power_W": 28016.735442462483,
+          "max_torque_Nm": 240.48207380894493,
+          "rpm_min": 1112.5158389581254,
+          "rpm_max": 1132.4678960736712
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.67576974837161,
+          "max_shaft_power_W": 16351.677188345411,
+          "max_torque_Nm": 143.44619855783623,
+          "rpm_min": 1088.540628555816,
+          "rpm_max": 1088.540628555816
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7402526067619786,
+          "max_shaft_power_W": 9186.26581740523,
+          "max_torque_Nm": 88.33999472755082,
+          "rpm_min": 992.9911974507022,
+          "rpm_max": 993.1897300078424
+        }
+      },
+      "failures": []
+    },
+    "M04-P60-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.427578629071832,
+      "partial_shaft_energy_kWh_not_total": 15.427578629071832,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.851618556897154,
+          "max_shaft_power_W": 29174.245895489228,
+          "max_torque_Nm": 248.56093245630973,
+          "rpm_min": 1120.8258834630103,
+          "rpm_max": 1141.9666320904646
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.828159822275328,
+          "max_shaft_power_W": 16777.16137474548,
+          "max_torque_Nm": 146.70550520034823,
+          "rpm_min": 1092.0523371749337,
+          "rpm_max": 1092.0523371749337
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7478002498993492,
+          "max_shaft_power_W": 9205.02254292264,
+          "max_torque_Nm": 88.52072730869634,
+          "rpm_min": 993.0046104588714,
+          "rpm_max": 993.5655163086371
+        }
+      },
+      "failures": []
+    },
+    "M04-P60-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 38.09941832467383,
+      "partial_shaft_energy_kWh_not_total": 38.09941832467383,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.851618556897154,
+          "max_shaft_power_W": 29174.245895489228,
+          "max_torque_Nm": 248.56093245630973,
+          "rpm_min": 1120.8258834630103,
+          "rpm_max": 1141.9666320904646
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.49999951787733,
+          "max_shaft_power_W": 16777.16137474548,
+          "max_torque_Nm": 146.70550520034823,
+          "rpm_min": 1092.0523371749337,
+          "rpm_max": 1092.0523371749337
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.7478002498993492,
+          "max_shaft_power_W": 9205.02254292264,
+          "max_torque_Nm": 88.52072730869634,
+          "rpm_min": 993.0046104588714,
+          "rpm_max": 993.5655163086371
+        }
+      },
+      "failures": []
+    },
+    "M05-CALM-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.217574783605393,
+      "partial_shaft_energy_kWh_not_total": 15.217574783605393,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.702394113415526,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M05-CALM-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.59929506295504,
+      "partial_shaft_energy_kWh_not_total": 37.59929506295504,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.08411439276518,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M05-HEAD-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 18.158915843468982,
+      "partial_shaft_energy_kWh_not_total": 18.158915843468982,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2748.2276713954598,
+          "weight_sum_s": 2748.2276713954598,
+          "shaft_energy_kWh_partial": 12.643735173279115,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M05-HEAD-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 44.872581983337916,
+      "partial_shaft_energy_kWh_not_total": 44.872581983337916,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 8554.679284298685,
+          "weight_sum_s": 8554.679284298685,
+          "shaft_energy_kWh_partial": 39.35740131314805,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M05-TAIL-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 13.097073089285125,
+      "partial_shaft_energy_kWh_not_total": 13.097073089285125,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 1647.991377716993,
+          "weight_sum_s": 1647.991377716993,
+          "shaft_energy_kWh_partial": 7.581892419095258,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M05-TAIL-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 32.355762631981335,
+      "partial_shaft_energy_kWh_not_total": 32.355762631981335,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 5834.0378893449,
+          "weight_sum_s": 5834.0378893449,
+          "shaft_energy_kWh_partial": 26.840581961791468,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V32-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.222229184921572,
+      "partial_shaft_energy_kWh_not_total": 14.222229184921572,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2438.4169852357804,
+          "weight_sum_s": 2438.4169852357804,
+          "shaft_energy_kWh_partial": 8.707048514731705,
+          "max_shaft_power_W": 12854.804917627009,
+          "max_torque_Nm": 127.0842672123908,
+          "rpm_min": 965.9287290234456,
+          "rpm_max": 965.9287290234456
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V32-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 34.307861868713765,
+      "partial_shaft_energy_kWh_not_total": 34.307861868713765,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 8063.41698523578,
+          "weight_sum_s": 8063.416985235779,
+          "shaft_energy_kWh_partial": 28.7926811985239,
+          "max_shaft_power_W": 12854.804917627009,
+          "max_torque_Nm": 127.0842672123908,
+          "rpm_min": 965.9287290234456,
+          "rpm_max": 965.9287290234456
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V34-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.54216323399431,
+      "partial_shaft_energy_kWh_not_total": 14.54216323399431,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2294.980691986617,
+          "weight_sum_s": 2294.980691986617,
+          "shaft_energy_kWh_partial": 9.026982563804443,
+          "max_shaft_power_W": 14160.091779057766,
+          "max_torque_Nm": 133.28619119356387,
+          "rpm_min": 1014.5005635275943,
+          "rpm_max": 1014.5005635275943
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V34-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 35.36582761496161,
+      "partial_shaft_energy_kWh_not_total": 35.36582761496161,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 7589.09833904544,
+          "weight_sum_s": 7589.09833904544,
+          "shaft_energy_kWh_partial": 29.850646944771743,
+          "max_shaft_power_W": 14160.091779057766,
+          "max_torque_Nm": 133.28619119356387,
+          "rpm_min": 1014.5005635275943,
+          "rpm_max": 1014.5005635275943
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V37-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.217574783605393,
+      "partial_shaft_energy_kWh_not_total": 15.217574783605393,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.702394113415526,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V37-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.59929506295504,
+      "partial_shaft_energy_kWh_not_total": 37.59929506295504,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.08411439276518,
+          "max_shaft_power_W": 16562.473006718745,
+          "max_torque_Nm": 145.064294558799,
+          "rpm_min": 1090.274952990692,
+          "rpm_max": 1090.274952990692
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V41-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 16.418372290583946,
+      "partial_shaft_energy_kWh_not_total": 16.418372290583946,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 1903.1547201840237,
+          "weight_sum_s": 1903.1547201840237,
+          "shaft_energy_kWh_partial": 10.90319162039408,
+          "max_shaft_power_W": 20624.43448088304,
+          "max_torque_Nm": 164.7987722202454,
+          "rpm_min": 1195.0868268802117,
+          "rpm_max": 1195.0868268802117
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    },
+    "M06-V41-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 41.57012165751448,
+      "partial_shaft_energy_kWh_not_total": 41.57012165751448,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7716605426651446,
+          "max_shaft_power_W": 28591.97859104614,
+          "max_torque_Nm": 244.50804937972975,
+          "rpm_min": 1116.6637835653737,
+          "rpm_max": 1137.210937378561
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6293.398622623048,
+          "weight_sum_s": 6293.398622623048,
+          "shaft_energy_kWh_partial": 36.05494098732461,
+          "max_shaft_power_W": 20624.43448088304,
+          "max_torque_Nm": 164.7987722202454,
+          "rpm_min": 1195.0868268802117,
+          "rpm_max": 1195.0868268802117
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.743520127524722,
+          "max_shaft_power_W": 9193.217289354641,
+          "max_torque_Nm": 88.40890803338867,
+          "rpm_min": 992.9854403129322,
+          "rpm_max": 993.351944590022
+        }
+      },
+      "failures": []
+    }
+  },
+  "PROP-B": {
+    "M01": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.927034407078434,
+      "partial_shaft_energy_kWh_not_total": 14.927034407078434,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.485688824317062,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M02": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.80885362005614,
+      "partial_shaft_energy_kWh_not_total": 36.80885362005614,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.367508037294765,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M03-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.04797333716709,
+      "partial_shaft_energy_kWh_not_total": 15.04797333716709,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 240.0,
+          "weight_sum_s": 240.0,
+          "shaft_energy_kWh_partial": 2.9193832248829197,
+          "max_shaft_power_W": 43931.10104278452,
+          "max_torque_Nm": 302.0142801712367,
+          "rpm_min": 1389.0439649008158,
+          "rpm_max": 1429.0298951942682
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2330.6455043626866,
+          "weight_sum_s": 2330.6455043626866,
+          "shaft_energy_kWh_partial": 10.48307917951184,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M03-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.92979255014479,
+      "partial_shaft_energy_kWh_not_total": 36.92979255014479,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 240.0,
+          "weight_sum_s": 240.0,
+          "shaft_energy_kWh_partial": 2.9193832248829197,
+          "max_shaft_power_W": 43931.10104278452,
+          "max_torque_Nm": 302.0142801712367,
+          "rpm_min": 1389.0439649008158,
+          "rpm_max": 1429.0298951942682
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 7195.510369227551,
+          "weight_sum_s": 7195.510369227551,
+          "shaft_energy_kWh_partial": 32.36489839248954,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M04-435-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.307369704238692,
+      "partial_shaft_energy_kWh_not_total": 14.307369704238692,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.5522251550089847,
+          "max_shaft_power_W": 26950.8996012364,
+          "max_torque_Nm": 207.7335417980535,
+          "rpm_min": 1238.9050478367255,
+          "rpm_max": 1264.9709920165942
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.11664718275759,
+          "max_shaft_power_W": 15562.573640192684,
+          "max_torque_Nm": 125.4754491409863,
+          "rpm_min": 1184.388120078497,
+          "rpm_max": 1184.388120078497
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6384973664721154,
+          "max_shaft_power_W": 8666.753200106179,
+          "max_torque_Nm": 77.9826951844785,
+          "rpm_min": 1061.1228947851434,
+          "rpm_max": 1061.278999725271
+        }
+      },
+      "failures": []
+    },
+    "M04-435-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 35.337874623417996,
+      "partial_shaft_energy_kWh_not_total": 35.337874623417996,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.5522251550089847,
+          "max_shaft_power_W": 26950.8996012364,
+          "max_torque_Nm": 207.7335417980535,
+          "rpm_min": 1238.9050478367255,
+          "rpm_max": 1264.9709920165942
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 30.147152101936896,
+          "max_shaft_power_W": 15562.573640192684,
+          "max_torque_Nm": 125.4754491409863,
+          "rpm_min": 1184.388120078497,
+          "rpm_max": 1184.388120078497
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6384973664721154,
+          "max_shaft_power_W": 8666.753200106179,
+          "max_torque_Nm": 77.9826951844785,
+          "rpm_min": 1061.1228947851434,
+          "rpm_max": 1061.278999725271
+        }
+      },
+      "failures": []
+    },
+    "M04-471-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.927034407078434,
+      "partial_shaft_energy_kWh_not_total": 14.927034407078434,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.485688824317062,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M04-471-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.80885362005614,
+      "partial_shaft_energy_kWh_not_total": 36.80885362005614,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.367508037294765,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M04-500-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.461239123145939,
+      "partial_shaft_energy_kWh_not_total": 15.461239123145939,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.998945603481498,
+          "max_shaft_power_W": 30205.979892712596,
+          "max_torque_Nm": 227.09225002463248,
+          "rpm_min": 1270.1704290669938,
+          "rpm_max": 1300.608435934537
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.804437023470937,
+          "max_shaft_power_W": 16736.665368270304,
+          "max_torque_Nm": 133.38567627728494,
+          "rpm_min": 1198.204979085349,
+          "rpm_max": 1198.204979085349
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6578564961935027,
+          "max_shaft_power_W": 8711.867270993735,
+          "max_torque_Nm": 78.37418885259372,
+          "rpm_min": 1061.474518617567,
+          "rpm_max": 1062.9834181626845
+        }
+      },
+      "failures": []
+    },
+    "M04-500-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 38.078354485673366,
+      "partial_shaft_energy_kWh_not_total": 38.078354485673366,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.998945603481498,
+          "max_shaft_power_W": 30205.979892712596,
+          "max_torque_Nm": 227.09225002463248,
+          "rpm_min": 1270.1704290669938,
+          "rpm_max": 1300.608435934537
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.42155238599837,
+          "max_shaft_power_W": 16736.665368270304,
+          "max_torque_Nm": 133.38567627728494,
+          "rpm_min": 1198.204979085349,
+          "rpm_max": 1198.204979085349
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6578564961935027,
+          "max_shaft_power_W": 8711.867270993735,
+          "max_torque_Nm": 78.37418885259372,
+          "rpm_min": 1061.474518617567,
+          "rpm_max": 1062.9834181626845
+        }
+      },
+      "failures": []
+    },
+    "M04-FUEL-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.730078253202302,
+      "partial_shaft_energy_kWh_not_total": 14.730078253202302,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7788503345415942,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1281.964689055004
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.31220585227772,
+          "max_shaft_power_W": 16103.860210266705,
+          "max_torque_Nm": 129.14048480455233,
+          "rpm_min": 1185.941781885442,
+          "rpm_max": 1190.8003717984277
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6390220663829884,
+          "max_shaft_power_W": 8666.753200106179,
+          "max_torque_Nm": 77.9826951844785,
+          "rpm_min": 1061.1240020394498,
+          "rpm_max": 1061.292454003113
+        }
+      },
+      "failures": []
+    },
+    "M04-FUEL-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.194162326355325,
+      "partial_shaft_energy_kWh_not_total": 36.194162326355325,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.789034771922823,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1283.5728047639714
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 30.766437628227468,
+          "max_shaft_power_W": 16156.948909457697,
+          "max_torque_Nm": 129.49848796010897,
+          "rpm_min": 1185.0068107428388,
+          "rpm_max": 1191.4231546929807
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6386899262050318,
+          "max_shaft_power_W": 8666.753200106179,
+          "max_torque_Nm": 77.9826951844785,
+          "rpm_min": 1061.1234087656946,
+          "rpm_max": 1061.278999725271
+        }
+      },
+      "failures": []
+    },
+    "M04-P36-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.714920375951761,
+      "partial_shaft_energy_kWh_not_total": 14.714920375951761,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7135929986243905,
+          "max_shaft_power_W": 28128.558358716997,
+          "max_torque_Nm": 214.81772231899512,
+          "rpm_min": 1250.3993776241998,
+          "rpm_max": 1278.0793415482556
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.359161239538883,
+          "max_shaft_power_W": 15976.557289201151,
+          "max_torque_Nm": 128.2802099609779,
+          "rpm_min": 1189.3095904383244,
+          "rpm_max": 1189.3095904383244
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.642166137788488,
+          "max_shaft_power_W": 8666.737291213189,
+          "max_torque_Nm": 77.99286552133168,
+          "rpm_min": 1061.137704229594,
+          "rpm_max": 1061.6029005746766
+        }
+      },
+      "failures": []
+    },
+    "M04-P36-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.30486265865602,
+      "partial_shaft_energy_kWh_not_total": 36.30486265865602,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7135929986243905,
+          "max_shaft_power_W": 28128.558358716997,
+          "max_torque_Nm": 214.81772231899512,
+          "rpm_min": 1250.3993776241998,
+          "rpm_max": 1278.0793415482556
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 30.94910352224314,
+          "max_shaft_power_W": 15976.557289201151,
+          "max_torque_Nm": 128.2802099609779,
+          "rpm_min": 1189.3095904383244,
+          "rpm_max": 1189.3095904383244
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.642166137788488,
+          "max_shaft_power_W": 8666.737291213189,
+          "max_torque_Nm": 77.99286552133168,
+          "rpm_min": 1061.137704229594,
+          "rpm_max": 1061.6029005746766
+        }
+      },
+      "failures": []
+    },
+    "M04-P60-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.144418259877275,
+      "partial_shaft_energy_kWh_not_total": 15.144418259877275,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.879112031444186,
+          "max_shaft_power_W": 29334.116291113525,
+          "max_torque_Nm": 221.97557262366774,
+          "rpm_min": 1261.941452507038,
+          "rpm_max": 1291.2345657129208
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.615426086528135,
+          "max_shaft_power_W": 16414.014226243286,
+          "max_torque_Nm": 131.22802564037812,
+          "rpm_min": 1194.4269468381754,
+          "rpm_max": 1194.4269468381754
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6498801419049534,
+          "max_shaft_power_W": 8686.113999434143,
+          "max_torque_Nm": 78.16016646149198,
+          "rpm_min": 1061.234673764998,
+          "rpm_max": 1062.288829808883
+        }
+      },
+      "failures": []
+    },
+    "M04-P60-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.325518565611446,
+      "partial_shaft_energy_kWh_not_total": 37.325518565611446,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.879112031444186,
+          "max_shaft_power_W": 29334.116291113525,
+          "max_torque_Nm": 221.97557262366774,
+          "rpm_min": 1261.941452507038,
+          "rpm_max": 1291.2345657129208
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.796526392262304,
+          "max_shaft_power_W": 16414.014226243286,
+          "max_torque_Nm": 131.22802564037812,
+          "rpm_min": 1194.4269468381754,
+          "rpm_max": 1194.4269468381754
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6498801419049534,
+          "max_shaft_power_W": 8686.113999434143,
+          "max_torque_Nm": 78.16016646149198,
+          "rpm_min": 1061.234673764998,
+          "rpm_max": 1062.288829808883
+        }
+      },
+      "failures": []
+    },
+    "M05-CALM-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.927034407078434,
+      "partial_shaft_energy_kWh_not_total": 14.927034407078434,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.485688824317062,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M05-CALM-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.80885362005614,
+      "partial_shaft_energy_kWh_not_total": 36.80885362005614,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.367508037294765,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M05-HEAD-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 17.80267991208577,
+      "partial_shaft_energy_kWh_not_total": 17.80267991208577,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2748.2276713954598,
+          "weight_sum_s": 2748.2276713954598,
+          "shaft_energy_kWh_partial": 12.361334329324398,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M05-HEAD-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 43.919689940478506,
+      "partial_shaft_energy_kWh_not_total": 43.919689940478506,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 8554.679284298685,
+          "weight_sum_s": 8554.679284298685,
+          "shaft_energy_kWh_partial": 38.478344357717134,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M05-TAIL-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 12.853894624398727,
+      "partial_shaft_energy_kWh_not_total": 12.853894624398727,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 1647.991377716993,
+          "weight_sum_s": 1647.991377716993,
+          "shaft_energy_kWh_partial": 7.412549041637354,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M05-TAIL-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 31.682436737891166,
+      "partial_shaft_energy_kWh_not_total": 31.682436737891166,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 5834.0378893449,
+          "weight_sum_s": 5834.0378893449,
+          "shaft_energy_kWh_partial": 26.241091155129794,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V32-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.026379936278849,
+      "partial_shaft_energy_kWh_not_total": 14.026379936278849,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2438.4169852357804,
+          "weight_sum_s": 2438.4169852357804,
+          "shaft_energy_kWh_partial": 8.585034353517477,
+          "max_shaft_power_W": 12674.667154877317,
+          "max_torque_Nm": 113.73800465446172,
+          "rpm_min": 1064.1487526732776,
+          "rpm_max": 1064.1487526732776
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V32-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 33.83054736577465,
+      "partial_shaft_energy_kWh_not_total": 33.83054736577465,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 8063.41698523578,
+          "weight_sum_s": 8063.416985235779,
+          "shaft_energy_kWh_partial": 28.38920178301328,
+          "max_shaft_power_W": 12674.667154877317,
+          "max_torque_Nm": 113.73800465446172,
+          "rpm_min": 1064.1487526732776,
+          "rpm_max": 1064.1487526732776
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V34-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.307560770981246,
+      "partial_shaft_energy_kWh_not_total": 14.307560770981246,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2294.980691986617,
+          "weight_sum_s": 2294.980691986617,
+          "shaft_energy_kWh_partial": 8.866215188219874,
+          "max_shaft_power_W": 13907.905538831295,
+          "max_torque_Nm": 119.26635997638498,
+          "rpm_min": 1113.563916094244,
+          "rpm_max": 1113.563916094244
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V34-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 34.760363033968446,
+      "partial_shaft_energy_kWh_not_total": 34.760363033968446,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 7589.09833904544,
+          "weight_sum_s": 7589.09833904544,
+          "shaft_energy_kWh_partial": 29.319017451207074,
+          "max_shaft_power_W": 13907.905538831295,
+          "max_torque_Nm": 119.26635997638498,
+          "rpm_min": 1113.563916094244,
+          "rpm_max": 1113.563916094244
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V37-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.927034407078434,
+      "partial_shaft_energy_kWh_not_total": 14.927034407078434,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.485688824317062,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V37-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.80885362005614,
+      "partial_shaft_energy_kWh_not_total": 36.80885362005614,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.367508037294765,
+          "max_shaft_power_W": 16192.546217603502,
+          "max_torque_Nm": 129.7383938187023,
+          "rpm_min": 1191.8401465846118,
+          "rpm_max": 1191.8401465846118
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V41-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 16.05353757057044,
+      "partial_shaft_energy_kWh_not_total": 16.05353757057044,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 1903.1547201840237,
+          "weight_sum_s": 1903.1547201840237,
+          "shaft_energy_kWh_partial": 10.61219198780907,
+          "max_shaft_power_W": 20073.980717878032,
+          "max_torque_Nm": 147.26905252566257,
+          "rpm_min": 1301.6475100462624,
+          "rpm_max": 1301.6475100462624
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    },
+    "M06-V41-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 40.534001860665605,
+      "partial_shaft_energy_kWh_not_total": 40.534001860665605,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.7958346499890427,
+          "max_shaft_power_W": 28726.899670075883,
+          "max_torque_Nm": 218.3803290936846,
+          "rpm_min": 1256.1648115026312,
+          "rpm_max": 1284.6456251953061
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6293.398622623048,
+          "weight_sum_s": 6293.398622623048,
+          "shaft_energy_kWh_partial": 35.09265627790423,
+          "max_shaft_power_W": 20073.980717878032,
+          "max_torque_Nm": 147.26905252566257,
+          "rpm_min": 1301.6475100462624,
+          "rpm_max": 1301.6475100462624
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.645510932772329,
+          "max_shaft_power_W": 8673.971827208015,
+          "max_torque_Nm": 78.05682182101245,
+          "rpm_min": 1061.1542671098384,
+          "rpm_max": 1061.906646683793
+        }
+      },
+      "failures": []
+    }
+  },
+  "PROP-C": {
+    "M01": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.146438470998856,
+      "partial_shaft_energy_kWh_not_total": 15.146438470998856,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.589583643226787,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M02": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.267924795838766,
+      "partial_shaft_energy_kWh_not_total": 37.267924795838766,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.711069968066695,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M03-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.288511776369816,
+      "partial_shaft_energy_kWh_not_total": 15.288511776369816,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 240.0,
+          "weight_sum_s": 240.0,
+          "shaft_energy_kWh_partial": 3.0635670023730475,
+          "max_shaft_power_W": 46019.04417098732,
+          "max_torque_Nm": 257.3577122929378,
+          "rpm_min": 1707.5435488422834,
+          "rpm_max": 1762.6734902313526
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2330.6455043626866,
+          "weight_sum_s": 2330.6455043626866,
+          "shaft_energy_kWh_partial": 10.59789821196625,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M03-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.409998101209716,
+      "partial_shaft_energy_kWh_not_total": 37.409998101209716,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 240.0,
+          "weight_sum_s": 240.0,
+          "shaft_energy_kWh_partial": 3.0635670023730475,
+          "max_shaft_power_W": 46019.04417098732,
+          "max_torque_Nm": 257.3577122929378,
+          "rpm_min": 1707.5435488422834,
+          "rpm_max": 1762.6734902313526
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 7195.510369227551,
+          "weight_sum_s": 7195.510369227551,
+          "shaft_energy_kWh_partial": 32.71938453680615,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M04-435-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.494222855595819,
+      "partial_shaft_energy_kWh_not_total": 14.494222855595819,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.6698675749099543,
+          "max_shaft_power_W": 27802.578549718488,
+          "max_torque_Nm": 177.05317711536736,
+          "rpm_min": 1499.5216281281862,
+          "rpm_max": 1535.9834687404664
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.20460522882189,
+          "max_shaft_power_W": 15712.722433019948,
+          "max_torque_Nm": 107.10569751584167,
+          "rpm_min": 1400.9100370834096,
+          "rpm_max": 1400.9100370834096
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6197500518639738,
+          "max_shaft_power_W": 8567.301959915434,
+          "max_torque_Nm": 66.42251379825856,
+          "rpm_min": 1231.5278180035134,
+          "rpm_max": 1231.7079558661026
+        }
+      },
+      "failures": []
+    },
+    "M04-435-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 35.727631548866015,
+      "partial_shaft_energy_kWh_not_total": 35.727631548866015,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.6698675749099543,
+          "max_shaft_power_W": 27802.578549718488,
+          "max_torque_Nm": 177.05317711536736,
+          "rpm_min": 1499.5216281281862,
+          "rpm_max": 1535.9834687404664
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 30.43801392209209,
+          "max_shaft_power_W": 15712.722433019948,
+          "max_torque_Nm": 107.10569751584167,
+          "rpm_min": 1400.9100370834096,
+          "rpm_max": 1400.9100370834096
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6197500518639738,
+          "max_shaft_power_W": 8567.301959915434,
+          "max_torque_Nm": 66.42251379825856,
+          "rpm_min": 1231.5278180035134,
+          "rpm_max": 1231.7079558661026
+        }
+      },
+      "failures": []
+    },
+    "M04-471-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.146438470998856,
+      "partial_shaft_energy_kWh_not_total": 15.146438470998856,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.589583643226787,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M04-471-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.267924795838766,
+      "partial_shaft_energy_kWh_not_total": 37.267924795838766,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.711069968066695,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M04-500-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.709927165102933,
+      "partial_shaft_energy_kWh_not_total": 15.709927165102933,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 4.147005156280225,
+          "max_shaft_power_W": 31273.583106925944,
+          "max_torque_Nm": 193.51641683277688,
+          "rpm_min": 1543.2319658843803,
+          "rpm_max": 1585.6887968185972
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.923090752329756,
+          "max_shaft_power_W": 16939.213230004083,
+          "max_torque_Nm": 113.84995153806008,
+          "rpm_min": 1420.7961345024482,
+          "rpm_max": 1420.7961345024482
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6398312564929516,
+          "max_shaft_power_W": 8614.423512577307,
+          "max_torque_Nm": 66.76173950313387,
+          "rpm_min": 1232.168089792839,
+          "rpm_max": 1234.556368635092
+        }
+      },
+      "failures": []
+    },
+    "M04-500-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 38.60075585429764,
+      "partial_shaft_energy_kWh_not_total": 38.60075585429764,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 4.147005156280225,
+          "max_shaft_power_W": 31273.583106925944,
+          "max_torque_Nm": 193.51641683277688,
+          "rpm_min": 1543.2319658843803,
+          "rpm_max": 1585.6887968185972
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.81391944152446,
+          "max_shaft_power_W": 16939.213230004083,
+          "max_torque_Nm": 113.84995153806008,
+          "rpm_min": 1420.7961345024482,
+          "rpm_max": 1420.7961345024482
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6398312564929516,
+          "max_shaft_power_W": 8614.423512577307,
+          "max_torque_Nm": 66.76173950313387,
+          "rpm_min": 1232.168089792839,
+          "rpm_max": 1234.556368635092
+        }
+      },
+      "failures": []
+    },
+    "M04-FUEL-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.94096047210816,
+      "partial_shaft_energy_kWh_not_total": 14.94096047210816,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.9116648863050463,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1559.7026181604163
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.4089975322948,
+          "max_shaft_power_W": 16277.789026692171,
+          "max_torque_Nm": 110.23105072905079,
+          "rpm_min": 1403.1463690429887,
+          "rpm_max": 1410.14200757626
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.620298053508313,
+          "max_shaft_power_W": 8567.301959915434,
+          "max_torque_Nm": 66.42251379825856,
+          "rpm_min": 1231.5287700627937,
+          "rpm_max": 1231.8670346689078
+        }
+      },
+      "failures": []
+    },
+    "M04-FUEL-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.62761751177169,
+      "partial_shaft_energy_kWh_not_total": 36.62761751177169,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.9225419533927783,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1561.9424734258619
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.085124159227863,
+          "max_shaft_power_W": 16332.926252624127,
+          "max_torque_Nm": 110.53404624442156,
+          "rpm_min": 1401.8006458233217,
+          "rpm_max": 1411.039966371469
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6199513991510444,
+          "max_shaft_power_W": 8567.301959915434,
+          "max_torque_Nm": 66.42251379825856,
+          "rpm_min": 1231.5283127032524,
+          "rpm_max": 1231.765754234967
+        }
+      },
+      "failures": []
+    },
+    "M04-P36-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.923753600461254,
+      "partial_shaft_energy_kWh_not_total": 14.923753600461254,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.8420045333795367,
+          "max_shaft_power_W": 29055.61623112949,
+          "max_torque_Nm": 183.06907871358305,
+          "rpm_min": 1515.6065612807138,
+          "rpm_max": 1554.273867397556
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.45817512766228,
+          "max_shaft_power_W": 16145.578958509193,
+          "max_torque_Nm": 109.50295510805957,
+          "rpm_min": 1407.9886873143046,
+          "rpm_max": 1407.9886873143046
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6235739394194375,
+          "max_shaft_power_W": 8567.500013979456,
+          "max_torque_Nm": 66.43166635761162,
+          "rpm_min": 1231.5451819237514,
+          "rpm_max": 1232.3744293467876
+        }
+      },
+      "failures": []
+    },
+    "M04-P36-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 36.7421035443926,
+      "partial_shaft_energy_kWh_not_total": 36.7421035443926,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.8420045333795367,
+          "max_shaft_power_W": 29055.61623112949,
+          "max_torque_Nm": 183.06907871358305,
+          "rpm_min": 1515.6065612807138,
+          "rpm_max": 1554.273867397556
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.27652507159362,
+          "max_shaft_power_W": 16145.578958509193,
+          "max_torque_Nm": 109.50295510805957,
+          "rpm_min": 1407.9886873143046,
+          "rpm_max": 1407.9886873143046
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6235739394194375,
+          "max_shaft_power_W": 8567.500013979456,
+          "max_torque_Nm": 66.43166635761162,
+          "rpm_min": 1231.5451819237514,
+          "rpm_max": 1232.3744293467876
+        }
+      },
+      "failures": []
+    },
+    "M04-P60-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.375193150092558,
+      "partial_shaft_energy_kWh_not_total": 15.375193150092558,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 4.018811431083516,
+          "max_shaft_power_W": 30341.612810631927,
+          "max_torque_Nm": 189.15751524086025,
+          "rpm_min": 1531.7449018222212,
+          "rpm_max": 1572.6241483070924
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.72480592664103,
+          "max_shaft_power_W": 16600.731095108065,
+          "max_torque_Nm": 112.00275572839519,
+          "rpm_min": 1415.3696820457535,
+          "rpm_max": 1415.3696820457535
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6315757923680123,
+          "max_shaft_power_W": 8587.719408954952,
+          "max_torque_Nm": 66.5766027341163,
+          "rpm_min": 1231.764257434244,
+          "rpm_max": 1233.4754023139205
+        }
+      },
+      "failures": []
+    },
+    "M04-P60-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.808613548887244,
+      "partial_shaft_energy_kWh_not_total": 37.808613548887244,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 4.018811431083516,
+          "max_shaft_power_W": 30341.612810631927,
+          "max_torque_Nm": 189.15751524086025,
+          "rpm_min": 1531.7449018222212,
+          "rpm_max": 1572.6241483070924
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 32.15822632543571,
+          "max_shaft_power_W": 16600.731095108065,
+          "max_torque_Nm": 112.00275572839519,
+          "rpm_min": 1415.3696820457535,
+          "rpm_max": 1415.3696820457535
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6315757923680123,
+          "max_shaft_power_W": 8587.719408954952,
+          "max_torque_Nm": 66.5766027341163,
+          "rpm_min": 1231.764257434244,
+          "rpm_max": 1233.4754023139205
+        }
+      },
+      "failures": []
+    },
+    "M05-CALM-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.146438470998856,
+      "partial_shaft_energy_kWh_not_total": 15.146438470998856,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.589583643226787,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M05-CALM-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.267924795838766,
+      "partial_shaft_energy_kWh_not_total": 37.267924795838766,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.711069968066695,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M05-HEAD-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 18.05358033589367,
+      "partial_shaft_energy_kWh_not_total": 18.05358033589367,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2748.2276713954598,
+          "weight_sum_s": 2748.2276713954598,
+          "shaft_energy_kWh_partial": 12.4967255081216,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M05-HEAD-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 44.45664465908968,
+      "partial_shaft_energy_kWh_not_total": 44.45664465908968,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 8554.679284298685,
+          "weight_sum_s": 8554.679284298685,
+          "shaft_energy_kWh_partial": 38.89978983131761,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M05-TAIL-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 13.050592010260736,
+      "partial_shaft_energy_kWh_not_total": 13.050592010260736,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 1647.991377716993,
+          "weight_sum_s": 1647.991377716993,
+          "shaft_energy_kWh_partial": 7.493737182488666,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M05-TAIL-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 32.085359313029954,
+      "partial_shaft_energy_kWh_not_total": 32.085359313029954,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 5834.0378893449,
+          "weight_sum_s": 5834.0378893449,
+          "shaft_energy_kWh_partial": 26.528504485257884,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V32-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.290636135566656,
+      "partial_shaft_energy_kWh_not_total": 14.290636135566656,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2438.4169852357804,
+          "weight_sum_s": 2438.4169852357804,
+          "shaft_energy_kWh_partial": 8.733781307794587,
+          "max_shaft_power_W": 12894.272349001169,
+          "max_torque_Nm": 97.04628254699993,
+          "rpm_min": 1268.788743714813,
+          "rpm_max": 1268.788743714813
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V32-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 34.43793668088097,
+      "partial_shaft_energy_kWh_not_total": 34.43793668088097,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 8063.41698523578,
+          "weight_sum_s": 8063.416985235779,
+          "shaft_energy_kWh_partial": 28.881081853108906,
+          "max_shaft_power_W": 12894.272349001169,
+          "max_torque_Nm": 97.04628254699993,
+          "rpm_min": 1268.788743714813,
+          "rpm_max": 1268.788743714813
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V34-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 14.550815611440285,
+      "partial_shaft_energy_kWh_not_total": 14.550815611440285,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2294.980691986617,
+          "weight_sum_s": 2294.980691986617,
+          "shaft_energy_kWh_partial": 8.993960783668216,
+          "max_shaft_power_W": 14108.292472464247,
+          "max_torque_Nm": 101.78834294018516,
+          "rpm_min": 1323.5726728934083,
+          "rpm_max": 1323.5726728934083
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V34-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 35.29830454153477,
+      "partial_shaft_energy_kWh_not_total": 35.29830454153477,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 7589.09833904544,
+          "weight_sum_s": 7589.09833904544,
+          "shaft_energy_kWh_partial": 29.741449713762698,
+          "max_shaft_power_W": 14108.292472464247,
+          "max_torque_Nm": 101.78834294018516,
+          "rpm_min": 1323.5726728934083,
+          "rpm_max": 1323.5726728934083
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V37-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 15.146438470998856,
+      "partial_shaft_energy_kWh_not_total": 15.146438470998856,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 2108.9011764201346,
+          "weight_sum_s": 2108.9011764201346,
+          "shaft_energy_kWh_partial": 9.589583643226787,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V37-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 37.267924795838766,
+      "partial_shaft_energy_kWh_not_total": 37.267924795838766,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6973.766041284999,
+          "weight_sum_s": 6973.766041284999,
+          "shaft_energy_kWh_partial": 31.711069968066695,
+          "max_shaft_power_W": 16369.899880381532,
+          "max_torque_Nm": 110.73708700990154,
+          "rpm_min": 1411.641151613022,
+          "rpm_max": 1411.641151613022
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V41-120": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 16.25250477783826,
+      "partial_shaft_energy_kWh_not_total": 16.25250477783826,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 1903.1547201840237,
+          "weight_sum_s": 1903.1547201840237,
+          "shaft_energy_kWh_partial": 10.695649950066192,
+          "max_shaft_power_W": 20231.849471762947,
+          "max_torque_Nm": 125.71488984513644,
+          "rpm_min": 1536.810248311313,
+          "rpm_max": 1536.810248311313
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    },
+    "M06-V41-300": {
+      "complete_match": true,
+      "point_count": 123,
+      "matched_count": 123,
+      "failure_count": 0,
+      "shaft_energy_kWh": 40.925491938524786,
+      "partial_shaft_energy_kWh_not_total": 40.925491938524786,
+      "phases": {
+        "climb": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 480.0,
+          "weight_sum_s": 480.0,
+          "shaft_energy_kWh_partial": 3.929808265741551,
+          "max_shaft_power_W": 29695.224210300978,
+          "max_torque_Nm": 186.10983540506166,
+          "rpm_min": 1523.6621027594504,
+          "rpm_max": 1563.4361369881503
+        },
+        "cruise": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 6293.398622623048,
+          "weight_sum_s": 6293.398622623048,
+          "shaft_energy_kWh_partial": 35.368637110752715,
+          "max_shaft_power_W": 20231.849471762947,
+          "max_torque_Nm": 125.71488984513644,
+          "rpm_min": 1536.810248311313,
+          "rpm_max": 1536.810248311313
+        },
+        "descent": {
+          "matched_samples": 41,
+          "expected_samples": 41,
+          "duration_s": 714.2857142857143,
+          "weight_sum_s": 714.2857142857143,
+          "shaft_energy_kWh_partial": 1.6270465620305186,
+          "max_shaft_power_W": 8575.079916497183,
+          "max_torque_Nm": 66.48712254543238,
+          "rpm_min": 1231.606636475492,
+          "rpm_max": 1232.8667972162284
+        }
+      },
+      "failures": []
+    }
+  }
+}

@@ -25,3 +25,12 @@
 
 # Preserve generated propulsion CSV bytes so the recorded reproduction compares exactly.
 platform/parameters/aircraft/v0.1/propulsion_requirements.csv text eol=crlf
+
+# A-V3-05AD hashes are over checkout bytes. Preserve source and generated CSV verbatim.
+platform/parameters/propeller/v0.1/** text eol=lf
+platform/parameters/propeller/v0.1/**/*.csv -text !eol whitespace=cr-at-eol
+platform/parameters/propeller/v0.1/**/*.png binary !eol
+platform/parameters/propeller/v0.1/**/*.zip binary !eol
+# These historical Markdown files use two spaces for hard line breaks.
+platform/parameters/propeller/v0.1/calculations/original/replayed-package/README.md whitespace=-blank-at-eol
+platform/parameters/propeller/v0.1/calculations/original/replayed-package/propeller_design_report.md whitespace=-blank-at-eol

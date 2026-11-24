@@ -1,0 +1,318 @@
+{
+  "baseline": "544da4e0ad59d8cbe0bf4f2a6f749fc26df0bbcf",
+  "revised_rows": 11577,
+  "revised_matched": 11568,
+  "motor_PROP_B_rows": 3692,
+  "original_counts": [
+    [
+      "PROP-A",
+      "1",
+      "MATCHED",
+      246
+    ],
+    [
+      "PROP-A",
+      "2",
+      "MATCHED",
+      3608
+    ],
+    [
+      "PROP-A",
+      "3",
+      "EXCLUDED_INPUT_INVALID",
+      2
+    ],
+    [
+      "PROP-A",
+      "3",
+      "MATCHED",
+      3
+    ],
+    [
+      "PROP-B",
+      "1",
+      "MATCHED",
+      246
+    ],
+    [
+      "PROP-B",
+      "2",
+      "MATCHED",
+      3608
+    ],
+    [
+      "PROP-B",
+      "3",
+      "EXCLUDED_INPUT_INVALID",
+      2
+    ],
+    [
+      "PROP-B",
+      "3",
+      "MATCHED",
+      1
+    ],
+    [
+      "PROP-B",
+      "3",
+      "NO_ROOT_OR_RPM_LIMIT",
+      1
+    ],
+    [
+      "PROP-B",
+      "3",
+      "THRUST_UNREACHABLE",
+      1
+    ],
+    [
+      "PROP-C",
+      "1",
+      "MATCHED",
+      246
+    ],
+    [
+      "PROP-C",
+      "2",
+      "MATCHED",
+      3608
+    ],
+    [
+      "PROP-C",
+      "3",
+      "EXCLUDED_INPUT_INVALID",
+      2
+    ],
+    [
+      "PROP-C",
+      "3",
+      "MATCHED",
+      1
+    ],
+    [
+      "PROP-C",
+      "3",
+      "NO_ROOT_OR_RPM_LIMIT",
+      1
+    ],
+    [
+      "PROP-C",
+      "3",
+      "THRUST_UNREACHABLE",
+      1
+    ]
+  ],
+  "revised_counts": [
+    [
+      "PROP-A",
+      1,
+      "MATCHED",
+      246
+    ],
+    [
+      "PROP-A",
+      2,
+      "MATCHED",
+      3608
+    ],
+    [
+      "PROP-A",
+      3,
+      "EXCLUDED_NO_TRIM_FOUND",
+      1
+    ],
+    [
+      "PROP-A",
+      3,
+      "EXCLUDED_OUTSIDE_SCREEN",
+      1
+    ],
+    [
+      "PROP-A",
+      3,
+      "MATCHED",
+      3
+    ],
+    [
+      "PROP-B",
+      1,
+      "MATCHED",
+      246
+    ],
+    [
+      "PROP-B",
+      2,
+      "MATCHED",
+      3608
+    ],
+    [
+      "PROP-B",
+      3,
+      "EXCLUDED_NO_TRIM_FOUND",
+      1
+    ],
+    [
+      "PROP-B",
+      3,
+      "EXCLUDED_OUTSIDE_SCREEN",
+      1
+    ],
+    [
+      "PROP-B",
+      3,
+      "MATCHED",
+      2
+    ],
+    [
+      "PROP-B",
+      3,
+      "THRUST_BELOW_SCREENED_RANGE",
+      1
+    ],
+    [
+      "PROP-C",
+      1,
+      "MATCHED",
+      246
+    ],
+    [
+      "PROP-C",
+      2,
+      "MATCHED",
+      3608
+    ],
+    [
+      "PROP-C",
+      3,
+      "EXCLUDED_NO_TRIM_FOUND",
+      1
+    ],
+    [
+      "PROP-C",
+      3,
+      "EXCLUDED_OUTSIDE_SCREEN",
+      1
+    ],
+    [
+      "PROP-C",
+      3,
+      "MATCHED",
+      1
+    ],
+    [
+      "PROP-C",
+      3,
+      "THRUST_ABOVE_SCREENED_RANGE",
+      1
+    ],
+    [
+      "PROP-C",
+      3,
+      "THRUST_BELOW_SCREENED_RANGE",
+      1
+    ]
+  ],
+  "legacy_independent_max_absolute_map_delta": {
+    "PROP-A": {
+      "CT": 7.181061301153591e-12,
+      "CQ": 1.3889271677225423e-12
+    },
+    "PROP-B": {
+      "CT": 4.8199361168954624e-12,
+      "CQ": 1.063671720147319e-12
+    },
+    "PROP-C": {
+      "CT": 6.878955738365278e-12,
+      "CQ": 7.424894032936891e-13
+    }
+  },
+  "max_residual_N": 7.776179700158536e-11,
+  "max_Mach": 0.6046468473115837,
+  "max_eta": 0.8455739108076101,
+  "max_root_count": 1,
+  "midcell_interpolation": {
+    "PROP-A": {
+      "cell_midpoints": 208,
+      "all_valid": true,
+      "max_abs_CT": 9.462295097462103e-08,
+      "max_abs_CQ": 4.417642942189555e-08,
+      "max_abs_eta": 1.1674967964059313e-05
+    },
+    "PROP-B": {
+      "cell_midpoints": 213,
+      "all_valid": true,
+      "max_abs_CT": 7.534100930628451e-08,
+      "max_abs_CQ": 4.206587115944925e-08,
+      "max_abs_eta": 1.108020830498102e-05
+    },
+    "PROP-C": {
+      "cell_midpoints": 234,
+      "all_valid": true,
+      "max_abs_CT": 8.629791896364036e-08,
+      "max_abs_CQ": 5.045390110726671e-08,
+      "max_abs_eta": 8.681539821253637e-06
+    }
+  },
+  "numerical_convergence": {
+    "radial_16_vs_radial_256": {
+      "CT": 3.3316663089200116e-06,
+      "CQ": 5.9992405558075e-07,
+      "eta": 7.399883849457112e-06
+    },
+    "radial_32_vs_radial_256": {
+      "CT": 4.34484690503556e-07,
+      "CQ": 8.384312844521291e-08,
+      "eta": 1.2630096749566277e-06
+    },
+    "base_64_vs_radial_256": {
+      "CT": 5.10660211894276e-08,
+      "CQ": 1.1341196735209502e-08,
+      "eta": 4.484463317355747e-07
+    },
+    "bisection_20_vs_bisection_46": {
+      "CT": 6.221137939521615e-08,
+      "CQ": 7.284889323722066e-09,
+      "eta": 8.066429535436015e-07
+    },
+    "bisection_28_vs_bisection_46": {
+      "CT": 2.4742846660430473e-10,
+      "CQ": 2.9444285551405436e-11,
+      "eta": 2.966649814695188e-09
+    },
+    "base_64_vs_bisection_46": {
+      "CT": 2.538108612171186e-13,
+      "CQ": 3.476212373509924e-14,
+      "eta": 3.0311309018316024e-12
+    },
+    "base_64_vs_actual_Re": {
+      "CT": 0.00010690149056606646,
+      "CQ": 6.983634955558086e-05,
+      "eta": 0.02083565062929571
+    },
+    "base_64_vs_no_hub_loss": {
+      "CT": 0.0013888137556976043,
+      "CQ": 0.00015121517390752,
+      "eta": 0.00394574701996786
+    },
+    "base_64_vs_span_to_0p97": {
+      "CT": 0.00389801320453409,
+      "CQ": 0.0006093035709200199,
+      "eta": 0.008675474592084065
+    }
+  },
+  "max_direct_thrust_delta_N": 0.0014009982571678847,
+  "analytic_mass_moment_check": "PASS",
+  "boundary_guard_checks": "PASS",
+  "valid_map_interior_a_range": [
+    -0.0017905657162547994,
+    0.4274524717128436
+  ],
+  "M02_original_effective_over_shaft": 0.8480698890739169,
+  "M02_archived_effective_kWh": 31.216480406499056,
+  "source_unique_physical_tuples": 704,
+  "M07_source_count": 164,
+  "M07_original_static_cap_states": {
+    "EXCEEDS_CAP": 155,
+    "WITHIN_CAP": 9
+  },
+  "matlab_simulink": "NOT RUN"
+}
