@@ -1,0 +1,18 @@
+{
+  "baseline": "a4548ae03612e0b60b0cdd980a2cd6d9e048adbe",
+  "g": 9.80665,
+  "candidates": {
+    "P-A": [15.5, 7.0, 0.80, 0.032, 0.78, 0.30, 1.55, -0.035, 33],
+    "P-B": [13.5, 8.5, 0.65, 0.028, 0.82, 0.28, 1.50, -0.040, 37],
+    "P-C": [12.0, 10.5, 0.55, 0.025, 0.85, 0.25, 1.45, -0.035, 43]
+  },
+  "candidate_columns": ["S", "AR", "taper", "CD0", "e", "CL0", "CLmax", "Cm0", "Vcruise"],
+  "mass_rows": [
+    [218, 0.47, 0.04, 1.70], [48, 0.12, 0.12, 0.24],
+    [65, 0.24, 0.20, 0.25], [22, -1.13, 0.025, 0.22],
+    [78, 0.22, 0.11, 0.33], [40, 0.36, 0.14, 0.26]
+  ],
+  "mass_rows_order": ["airframe_etc", "payload", "battery", "drive_prop", "genset", "fuel_total"],
+  "station_columns": ["kg", "aft_station_over_MAC", "down_station_over_MAC", "gyration_radius_over_MAC"],
+  "efficiency": [[0.68, 0.82], [0.97, 0.99], [0.88, 0.95]]
+}
